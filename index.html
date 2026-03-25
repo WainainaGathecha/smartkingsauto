@@ -3,10 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Smart Kings Auto Tyres offers new and used tyres, wheel alighnment, and balancing in Kahawa Sukari Nairobi. Call or WhatsApp us for prices and availability.">
+    <title>Smart Kings Auto Tyres - Quality Tyres And Wheel Services in Kahawa Sukari, Nairobi</title>
     <link rel="stylesheet" href="./dist/output.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 <body>
-    
+    <!-- Navbar -->
+     <header class="bg-brand-dark h-14 flex items-center justify-between  px-5 md:px-10 text-brand-subtle w-full">
+
+        <!-- Logo -->
+        <div class="flex items-center gap-3">
+            <div class="bg-page w-9 h-9 rounded-md flex items-center justify-center">
+                <span class="text-brand font-bold text-sm">SK</span>
+            </div>
+
+            <div class="flex flex-col">
+                    <a class="font-bold text-sm" href="#">Smart Kings Auto Tyres</a>
+                <span class="text-xs opacity-70">Kahawa Sukari, Nairobi</span>
+            </div>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex gap-8 text-sm font-medium">
+            <a href="#services" class="opacity-80 hover:opacity-100 transition-opacity duration-200">Services</a>
+            <a href="#products" class="opacity-80 hover:opacity-100 transition-opacity duration-200">Products</a>
+            <a href="#why-us" class="opacity-80 hover:opacity-100 transition-opacity duration-200">Why Us</a>
+            <a href="#find-us" class="opacity-80 hover:opacity-100 transition-opacity duration-200">Find Us</a>
+        </nav>
+
+        <!-- Desktop CTA buttons -->
+         <div class="hidden md:flex gap-3">
+             <a href="https://wa.me/254780362229" class="bg-whatsapp px-5 py-2.5 rounded-md flex items-center font-semibold gap-2 text-sm hover:opacity-90 transition-opacity duration-200">
+                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                WhatsApp Us
+            </a>
+             <a href="tel:+254780362229" class="bg-page text-brand px-5 py-2.5 flex items-center rounded-md font-semibold gap-2 text-sm hover:opacity-90 transition-opacity duration-200">
+                <i data-lucide="phone" class="w-4 h-4"></i>
+                Call Now
+            </a>
+         </div>
+
+        <!-- Mobile Hamburger menu -->
+         <button aria-label="navigation menu" type="button" class="md:hidden flex flex-col gap-1.5 p-2" id="hamburger">
+            <span class="block w-5 h-0.5 bg-page"></span>
+            <span class="block w-5 h-0.5 bg-page"></span>
+            <span class="block w-5 h-0.5 bg-page"></span>
+         </button>
+        </header>
+
+     <!-- Mobile menu -->
+      <div id="mobile-menu" class="hidden bg-brand-dark px-6 py-4  flex flex-col gap-4 md:hidden">
+        <a href="#services" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200">Services</a>
+        <a href="#products" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200">Products</a>
+        <a href="#why-us" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200">Why Us</a>
+        <a href="#find-us" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200">Find Us</a>
+
+        <div class="flex flex-col gap-3 pt-2 border-t border-white/10">
+            <a href="https://wa.me/254780362229" class="bg-whatsapp px-5 py-2.5 rounded-md flex items-center justify-center font-semibold gap-2 text-sm">
+                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                WhatsApp Us
+            </a>
+            <a href="tel:+254780362229" class="bg-page text-brand-dark ps-5 py-2.5 rounded-md flex items-center justify-center font-semibold gap-2 text-sm">
+                <i data-lucide="phone" class="w-4 h-4"></i>
+                Call Now
+            </a>
+        </div>
+
+      </div>
+     <script>
+        lucide.createIcons();
+     </script>
+     <script src="src/js/main.js"></script>
 </body>
 </html>

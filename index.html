@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./dist/output.css">
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
-<body>
+<body class="font-sans bg-page">
     <!-- Navbar -->
-     <header class="bg-brand-dark h-14 flex items-center justify-between  px-5 md:px-10 text-brand-subtle w-full">
+     <header class="bg-brand-dark h-14 flex items-center justify-between  px-5 md:px-10 text-brand-subtle w-full relative">
 
         <!-- Logo -->
         <div class="flex items-center gap-3">
@@ -19,13 +19,13 @@
             </div>
 
             <div class="flex flex-col">
-                    <a class="font-bold text-sm" href="#">Smart Kings Auto Tyres</a>
+                    <a class="font-bold font-serif text-sm" href="#">Smart Kings Auto Tyres</a>
                 <span class="text-xs opacity-70">Kahawa Sukari, Nairobi</span>
             </div>
         </div>
 
         <!-- Desktop Navigation -->
-        <nav class="hidden md:flex gap-8 text-sm font-medium">
+        <nav class="hidden md:flex gap-8 text-sm font-medium font-serif">
             <a href="#services" class="opacity-80 hover:opacity-100 transition-opacity duration-200">Services</a>
             <a href="#products" class="opacity-80 hover:opacity-100 transition-opacity duration-200">Products</a>
             <a href="#why-us" class="opacity-80 hover:opacity-100 transition-opacity duration-200">Why Us</a>
@@ -49,15 +49,15 @@
             <span class="block w-5 h-0.5 bg-page"></span>
             <span class="block w-5 h-0.5 bg-page"></span>
             <span class="block w-5 h-0.5 bg-page"></span>
-         </button>
-        </header>
+        </button>
+    </header>
 
      <!-- Mobile menu -->
-      <div id="mobile-menu" class="hidden bg-brand-dark px-6 py-4  flex flex-col gap-4 md:hidden">
-        <a href="#services" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200">Services</a>
-        <a href="#products" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200">Products</a>
-        <a href="#why-us" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200">Why Us</a>
-        <a href="#find-us" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200">Find Us</a>
+      <div id="mobile-menu" class="hidden absolute top-14 left-0 w-full bg-brand-dark px-6 py-4 flex flex-col gap-4 md:hidden z-50">
+        <a href="#services" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200 border-b py-4 border-page">Services</a>
+        <a href="#products" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200 border-b py-4">Products</a>
+        <a href="#why-us" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200 border-b py-4">Why Us</a>
+        <a href="#find-us" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200 border-b py-4">Find Us</a>
 
         <div class="flex flex-col gap-3 pt-2 border-t border-white/10">
             <a href="https://wa.me/254780362229" class="bg-whatsapp px-5 py-2.5 rounded-md flex items-center justify-center font-semibold gap-2 text-sm">
@@ -69,8 +69,77 @@
                 Call Now
             </a>
         </div>
+        
+    </div>
+        <!-- Hero section -->
+         <section class="bg-brand text-page md:py-14 md:px-10 p-8">
+            <!-- Inner container - becomes two column grid on desktop -->
+            <div class="flex gap-10">
+                <!-- Left column content -->
+                <div class="flex-1">
+                    <!-- Eyebrow -->
+                    <p class="opacity-70 tracking-widest mb-4 uppercase">Kahawa Sukari · Nairobi · Mon - Sat</p>
 
-      </div>
+                    <!-- Heading and Description -->
+                    <h1 class="text-5xl tracking-tight font-serif font-bold mt-3 leading-tight">Tyres That Keep Nairobi Moving</h1>
+                    <p class="mt-6 opacity-80 leading-relaxed">New and used tyres, wheel alignment, and balancing for passenger cars, matatus, and trucks. Quality you can trust, prices you can afford. </p>
+                    
+                    <!-- CTA buttons -->
+                    <div class="mt-8 flex gap-3">
+                        <a href="tel:+254780362229" class="flex gap-2 items-center justify-center bg-page text-brand-dark rounded-md px-6 py-3 font-semibold text-sm hover:opacity-90 transition-opacity duration-200">
+                            <i data-lucide="phone" class="w-4 h-4 shrink-0"></i>
+                            Call +254780362229
+                        </a>
+
+                        <a href="https://wa.me/254780362229" class="flex items-center justify-center gap-2 rounded-md bg-white/15 px-6 py-3 font-semibold border border-white/30 text-page text-sm hover:bg-white/25 transition-colors duration-200">
+                            <i data-lucide="message-circle" class="w-4 h-4 shrink-0"></i>
+                            WhatsApp Us
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right column content - info card -->
+                <div class="bg-page p-6 text-surface-darker rounded-md hidden md:flex flex-col gap-4 w-80 ">
+                    <div class="flex gap-3 items-start">
+                        <i data-lucide="map-pin" class="w-5 h-5 shrink-0 text-brand mt-0.5"></i>
+                        <div>
+                            <span class="block font-semibold text-sm ">Pause Road, Kahawa Sukari</span>
+                            <span class="block opacity-60 mt-0.5 text-sm">Nairobi, Kenya</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <i data-lucide="clock" class="w-5 h-5 shrink-0 text-brand mt-0.5"></i>
+                        <div>
+                            <span class="font-semibold  block text-sm">Mon - Sat 7:30am - 7pm</span>
+                            <span class="block opacity-60 text-sm">Closed Sundays</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <i data-lucide="phone" class="w-5 h-5 shrink-0 text-brand mt-0.5"></i>
+                        <div>
+                            <span class="block font-semibold  text-sm">+254 780 362 229</span>
+                            <span class="opacity-60 text-sm  block">Call or WhatsApp any time</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <i data-lucide="car" class="w-5 h-5 shrink-0 text-brand"></i>
+                        <div>
+                            <span class="block font-semibold  text-sm">All vehicle types served</span>
+                            <span class="opacity-60 text-sm block">Cars · Matatus · Trucks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Services section -->
+          
+        <section>
+            <div>
+                i
+            </div>
+        </section>
+
      <script>
         lucide.createIcons();
      </script>

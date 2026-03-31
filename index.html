@@ -303,9 +303,9 @@
             <h2 class="font-bold font-serif text-2xl text-surface-darker mb-2">Visit Our Shop</h2>
             <p class="text-surface-dark text-sm opacity-70 mb-8">We're easy to find in Kahawa Sukari</p>
 
-            <div class="flex gap-10">
+            <div class="flex flex-col md:flex-row gap-10">
                 <!-- left column content  -->
-                <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-4">
                     <div class="flex gap-3 items-start">
                         <div class="bg-brand/10 w-11 h-11 rounded-lg flex items-center justify-center shrink-0">
                             <i data-lucide="map-pin" class="w-5 h-5 text-brand"></i>
@@ -337,21 +337,30 @@
                         </div>
                     </div>
                     <!-- CTA buttons -->
-                    <div class="mt-8 flex gap-3">
+                    <div class="mt-4 flex flex-col sm:flex-row gap-3">
                         <a href="tel:+254780362229" class="flex gap-2 items-center justify-center bg-brand text-page rounded-md px-6 py-3 font-semibold text-sm hover:opacity-90 transition-opacity duration-200">
                             <i data-lucide="phone" class="w-4 h-4 shrink-0"></i>
-                            Call +254780362229
+                            Call Now
                         </a>
 
-                        <a href="https://wa.me/254780362229" class="flex items-center justify-center gap-2 rounded-md bg-whatsapp px-6 py-3 font-semibold border border-white/30 text-page text-sm ">
+                        <a href="https://wa.me/254780362229" class="flex items-center justify-center gap-2 rounded-md bg-whatsapp px-6 py-3 font-semibold text-page text-sm hover:opacity-90 transition-opacity duration-200">
                             <i data-lucide="message-circle" class="w-4 h-4 shrink-0"></i>
                             WhatsApp Us
                         </a>
                     </div>
+
+                    <!-- mobile directions link -->
+                    <a href="https://maps.google.com/?q=Pause+Road+Kahawa+Sukari+Nairobi" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-brand text-sm font-semibold md:hidden">
+                        <i data-lucide="map" class="w-4 h-4 shrink-0"></i>
+                        Get directions
+                    </a>
                 </div>
 
                 <!-- Right column content -->
                  <!-- Map goes here -->
+                <div class="hidden md:block flex-1 rounded-xl overflow-hidden min-h-72">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9581415723765!2d36.9319578!3d-1.1897705999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3fb3ffa069db%3A0xa0a9a9eb416fdc2c!2sSmart%20kings%20auto%20tyres!5e0!3m2!1sen!2ske!4v1774939326175!5m2!1sen!2ske" class="w-full h-full min-h-72" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
 
 
             </div>
@@ -359,62 +368,69 @@
         </section>
 
         <!-- Footer -->
-        <section class="px-5 py-6 md:px-10 md:py-12 bg-surface-dark grid grid-cols-2 md:grid-cols-4 md:gap-12 gap-5">
-            <div>
-                <h3 class="text-page font-serif font-semibold text-sm mb-2">Smart Kings Auto Tyres</h3>
-                <p class="text-sm text-page/30 leading-relaxed tracking-wide mb-4">
-                    Quality tyres and wheel services for every vehicle on Nairobi's roads. Serving Kahawa Sukari and beyond.
-                </p>
-                <div class="flex gap-3">
-                    <i data-lucide="phone"></i>
-                    <a href="tel:+254780362229" class="text-page/60 text-sm font-semibold">+254 780 362 229</a>
+        <footer class="bg-surface-dark">  
+            <!-- footer grid -->
+            <div class="px-5 py-8 md:px-10 md:py-12 grid grid-cols-2 md:grid-cols-4 md:gap-12 gap-5">
+                <!-- Brand column -->
+                <div>
+                    <h3 class="text-page font-serif font-semibold text-sm mb-3">Smart Kings Auto Tyres</h3>
+                    <p class="text-sm text-page/50 leading-relaxed mb-4">
+                        Quality tyres and wheel services for every vehicle on Nairobi's roads. Serving Kahawa Sukari and beyond.
+                    </p>
+                    <div class="flex gap-3 items-start mb-2">
+                        <i data-lucide="phone" class="w-4 h-4 text-page/60 shrink-0 mt-0.5"></i>
+                        <a href="tel:+254780362229" class="text-page/60 text-sm">+254 780 362 229</a>
+                    </div>
+                    <div class="flex gap-3 items-start">
+                        <i data-lucide="map-pin" class="w-4 h-4 text-page/60 shrink-0 mt-0.5"></i>
+                        <span class="text-page/60 text-sm">Pause Road, Kahawa Sukari</span>
+                    </div>
                 </div>
-                <div class="flex gap-3">
-                    <i data-lucide="map-pin"></i>
-                    <span class="block text-page/30 font-semibold text-sm">Pause Road, Kahawa Sukari</span>
+                <!-- services column -->
+                <div>
+                    <h3 class="text-page/50 font-semibold text-xs uppercase mb-3 tracking-widest font-serif">Services</h3>
+                    <ul class="text-page/60 text-sm space-y-1.5">
+                        <li>New Tyres</li>
+                        <li>Used Tyres</li>
+                        <li>Wheel Balancing</li>
+                        <li>Wheel Alignment</li>
+                        <li>Puncture Repair</li>
+                    </ul>
                 </div>
-            </div>
-            <div>
-                <h3 class="text-page/30 font-semibold text-sm mb-2 tracking-wide font-serif">Services</h3>
-                <ul class="text-page/60 text-sm leading-relaxed">
-                    <li>New Tyres</li>
-                    <li>Used Tyres</li>
-                    <li>Wheel Balancing</li>
-                    <li>Wheel Alignment</li>
-                    <li>Puncture Repair</li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="text-page/30 font-semibold text-sm mb-2 tracking-wide font-serif">Vehicle Types</h3>
-                <ul class="text-page/60 text-sm leading-relaxed">
-                    <li>Passenger Cars</li>
-                    <li>Matatus</li>
-                    <li>Buses</li>
-                    <li>Trucks</li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="text-page/30 font-semibold text-sm mb-2 tracking-wide font-serif">Hours</h3>
-                <span class="block text-page/60 text-sm leading-relaxed">Mon - Sat</span>
-                <span class="block text-page/60 text-sm leading-relaxed">7:30am - 7pm</span>
-                <div class="mt-2">
-                    <h3 class="text-page/30 font-semibold text-sm mb-2 tracking-wide font-serif">Follow Us</h3>
-                    <div>
-                        <a href="#">Facebook</a>
-                        <a href="#">Instagram</a>
-                        <a href="#">Twitter</a>
+                <div>
+                    <h3 class="text-page/50 font-semibold text-xs mb-3 uppercase tracking-widest font-serif">Vehicle Types</h3>
+                    <ul class="text-page/60 text-sm space-y-1.5">
+                        <li>Passenger Cars</li>
+                        <li>Matatus</li>
+                        <li>Buses</li>
+                        <li>Trucks</li>
+                    </ul>
+                </div>
+                <!-- Hours and socials column -->
+                <div>
+                    <h3 class="text-page/50 font-semibold text-xs uppercase mb-3 tracking-widest font-serif">Hours</h3>
+                    <span class="block text-page/60 text-sm">Mon - Sat</span>
+                    <span class="block text-page/60 text-sm mb-6">7:30am - 7pm</span>
+                
+                    <h3 class="text-page/50 font-semibold text-xs uppercase mb-3 tracking-widest font-serif">Follow Us</h3>
+                    <div class="flex gap-3">
+                        <a href="https://facebook.com/YOUR_PAGE_NAME" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-full bg-page/10 flex items-center justify-center hover:bg-brand transition-colors duration-200"><i data-lucide="facebook" class="w-4 h-4 text-page/60"></i></a>
+                        <a href="https://instagram.com/YOUR_HANDLE" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-full bg-page/10 flex items-center justify-center hover:bg-brand transition-colors duration-200"><i data-lucide="instagram" class="w-4 h-4 text-page/60"></i></a>
+                        <a href="https://twitter.com/YOUR_HANDLE" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-full bg-page/10 flex items-center justify-center hover:bg-brand transition-colors duration-200"><i data-lucide="twitter" class="w-4 h-4 text-page/60"></i></a>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <footer class="bg-surface-darker text-page/30 flex justify-between md:px-10 md:py-2.5 px-5 py-0.5 ">
-            <p class="trecking-tight text-sm">
-                2025 Smart Kings Auto Tyres. All Rights Reserved
-            </p>
-            <p class="hidden md:flex text-sm tracking-tight">
-                Built by Wainaina Gathecha
-            </p>
+            <!-- copyright bar -->
+            <div class="bg-surface-dark flex justify-between items-center md:px-10 py-3 px-5 ">
+                <p class="tracking-tight text-sm text-page/30">
+                    &copy; 2025 Smart Kings Auto Tyres. All Rights Reserved.
+                </p>
+                <p class="hidden md:block text-sm tracking-tight text-page/30">
+                    Built by Wainaina Gathecha
+                </p>
+            </div>
+            
         </footer>
 
 

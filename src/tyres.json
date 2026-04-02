@@ -24,8 +24,8 @@
         "brand": "RoadCruza",
         "size": "195/r14c-ra350",
         "price": 1800,
-        "vehicleType": "passenger",
-        "condition": "truck",
+        "vehicleType": "truck",
+        "condition": "new",
         "image": "./src/assets/tyres/roadcruza/roadcruza-195r14c-ra350.jpg",
         "description": "reliable all-season tyre for passenger cars"
     },

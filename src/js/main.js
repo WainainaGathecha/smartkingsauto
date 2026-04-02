@@ -92,7 +92,7 @@ function renderTyres(tyres) {
                 ${tyre.size}
             </h3>
             <p class="text-xs opacity-60 mb-1 capitalize">
-                ${tyre.vehichleType}
+                ${tyre.vehicleType}
             </p>
             <p class="text-xs opacity-50 mb-3 leading-relaxed">
                 ${tyre.description}
@@ -122,11 +122,11 @@ function renderTyres(tyres) {
 }
 
 //filter function
-function filterTypes() {
+function filterTyres() {
     return allTyres.filter(tyre => {
         //vehicle type check
         //if state is 'all' skip this check entirely
-        const vehichleMatch = state.vehicleType === 'all' || tyre.vehicleType === state.vehicleType;
+        const vehicleMatch = state.vehicleType === 'all' || tyre.vehicleType === state.vehicleType;
 
         //condition check
         const conditionMatch = state.condition === 'all' || tyre.condition === state.condition;

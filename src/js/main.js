@@ -16,7 +16,7 @@ const state = {
     vehicleType:'all',
     condition:'all',
     brand:'all',
-    size:'all',
+    size:'',
     price:'all'
 };
 
@@ -203,7 +203,7 @@ resetBtn.addEventListener('click', () => {
     state.vehicleType = 'all';
     state.condition = 'all';
     state.brand = 'all';
-    state.size = 'all';
+    state.size = '';
     state.price = 'all';
 
     //reset form controls

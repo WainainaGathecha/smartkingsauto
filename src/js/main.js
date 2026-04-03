@@ -10,6 +10,7 @@ hamburger.addEventListener('click', () => {
     // mobileMenu.classList.toggle('flex');
 });
 
+
 //state
 const state = {
     vehicleType:'all',
@@ -224,4 +225,11 @@ resetBtn.addEventListener('click', () => {
     
     //render full list
     renderTyres(allTyres);
+});
+
+// Auto-close mobile menu when a link is clicked
+document.querySelectorAll('#mobile-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+    });
 });

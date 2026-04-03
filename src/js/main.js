@@ -104,7 +104,7 @@ function renderTyres(tyres) {
                     Ksh ${tyre.price.toLocaleString()}
                 </span>
                 <a 
-                    href="https://wa.me/254780362229?text=Hi%2C%20I'm%interested%20in%20the%20%20${encodeURIComponent(tyre.brand)}%20${encodeURIComponent(tyre.size)}%20tyre%20(Ksh%20${tyre.price.toLocaleString()})"
+                    href="https://wa.me/254780362229?text=Hi%2C%20I'm%20interested%20in%20the%20%20${encodeURIComponent(tyre.brand)}%20${encodeURIComponent(tyre.size)}%20tyre%20(Ksh%20${tyre.price.toLocaleString()})"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="bg-brand/10 text-brand-dark text-xs font-semibold px-3 py-1.5 rounded-lg hover:bg-brand hover:text-page transition-colors duration-200">

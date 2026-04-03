@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "brand": "RoadCruza",
+        "brand": "Michelin",
         "size": "165/R13c-8pr-ra350",
         "price": 8500,
         "vehicleType": "passenger",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "brand": "RoadCruza",
+        "brand": "Bridgestone",
         "size": "195/r14c-ra350",
         "price": 1800,
         "vehicleType": "truck",

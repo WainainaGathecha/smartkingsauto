@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f5f0eb"/>
+
+  <!-- Subtle grid texture -->
+  <line x1="0" y1="100" x2="800" y2="100" stroke="#ede8e3" stroke-width="1"/>
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#ede8e3" stroke-width="1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#ede8e3" stroke-width="1"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#ede8e3" stroke-width="1"/>
+  <line x1="160" y1="0" x2="160" y2="500" stroke="#ede8e3" stroke-width="1"/>
+  <line x1="320" y1="0" x2="320" y2="500" stroke="#ede8e3" stroke-width="1"/>
+  <line x1="480" y1="0" x2="480" y2="500" stroke="#ede8e3" stroke-width="1"/>
+  <line x1="640" y1="0" x2="640" y2="500" stroke="#ede8e3" stroke-width="1"/>
+
+  <!-- Outer tyre circle -->
+  <circle cx="400" cy="230" r="140" fill="#263238"/>
+
+  <!-- Tyre tread detail - outer ring -->
+  <circle cx="400" cy="230" r="140" fill="none" stroke="#37474f" stroke-width="18" stroke-dasharray="22 10"/>
+
+  <!-- Sidewall -->
+  <circle cx="400" cy="230" r="118" fill="#2e3d44"/>
+
+  <!-- Inner tyre wall -->
+  <circle cx="400" cy="230" r="100" fill="#1c2a31"/>
+
+  <!-- Rim outer -->
+  <circle cx="400" cy="230" r="82" fill="#607d8b"/>
+
+  <!-- Rim spokes -->
+  <g stroke="#78909c" stroke-width="10" stroke-linecap="round">
+    <line x1="400" y1="160" x2="400" y2="190"/>
+    <line x1="400" y1="270" x2="400" y2="300"/>
+    <line x1="330" y1="195" x2="355" y2="208"/>
+    <line x1="445" y1="252" x2="470" y2="265"/>
+    <line x1="330" y1="265" x2="355" y2="252"/>
+    <line x1="445" y1="208" x2="470" y2="195"/>
+  </g>
+
+  <!-- Center hub -->
+  <circle cx="400" cy="230" r="30" fill="#546e7a"/>
+  <circle cx="400" cy="230" r="18" fill="#f57c00"/>
+  <circle cx="400" cy="230" r="8" fill="#e65100"/>
+
+  <!-- Hub bolts -->
+  <circle cx="400" cy="208" r="4" fill="#37474f"/>
+  <circle cx="400" cy="252" r="4" fill="#37474f"/>
+  <circle cx="381" cy="219" r="4" fill="#37474f"/>
+  <circle cx="419" cy="241" r="4" fill="#37474f"/>
+  <circle cx="381" cy="241" r="4" fill="#37474f"/>
+  <circle cx="419" cy="219" r="4" fill="#37474f"/>
+
+  <!-- Brand accent bar -->
+  <rect x="280" y="395" width="240" height="4" rx="2" fill="#f57c00"/>
+
+  <!-- Text -->
+  <text x="400" y="432" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#607d8b" text-anchor="middle" letter-spacing="3">SMART KINGS AUTO TYRES</text>
+  <text x="400" y="456" font-family="system-ui, sans-serif" font-size="12" fill="#90a4ae" text-anchor="middle" letter-spacing="1">Image not available</text>
+</svg>

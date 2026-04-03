@@ -6,7 +6,7 @@
         "price": 8500,
         "vehicleType": "passenger",
         "condition": "new",
-        "image": "/src/assets/Tyres/Roadcruza/roadcruza-165-r13c-new.webp",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-165-r13c-new.webp",
         "description": "reliable all-season tyre for passenger cars"
     },
     {
@@ -16,7 +16,7 @@
         "price": 20000,
         "vehicleType": "matatu",
         "condition": "new",
-        "image": "/src/assets/Tyres/Roadcruza/roadcruza-185-r14c-new.webp",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-185-r14c-new.webp",
         "description": "reliable all-season tyre for passenger cars"
     },
     {
@@ -26,7 +26,7 @@
         "price": 1800,
         "vehicleType": "truck",
         "condition": "new",
-        "image": "/src/assets/Tyres/Roadcruza/roadcruza-195r14c-ra350.jpg",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-195r14c-ra350.jpg",
         "description": "reliable all-season tyre for passenger cars"
     },
     {
@@ -36,7 +36,7 @@
         "price": 8500,
         "vehicleType": "passenger",
         "condition": "new",
-        "image": "/src/assets/Tyres/Roadcruza/roadcruza-17565r14-ra610.png",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-17565r14-ra610.png",
         "description": "reliable all-season tyre for passenger cars"
     },
     {
@@ -46,7 +46,7 @@
         "price": 8500,
         "vehicleType": "matatu",
         "condition": "used",
-        "image": "/src/assets/Tyres/Roadcruza/roadcruza-17570r13c-ra350.jpg",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-17570r13c-ra350.jpg",
         "description": "reliable all-season tyre for passenger cars"
     },
     {
@@ -56,7 +56,7 @@
         "price": 8500,
         "vehicleType": "passenger",
         "condition": "new",
-        "image": "/src/assets/Tyres/Roadcruza/roadcruza-17570r13-ra610.jpg",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-17570r13-ra610.jpg",
         "description": "reliable all-season tyre for passenger cars"
     },
     {
@@ -66,7 +66,7 @@
         "price": 8500,
         "vehicleType": "passenger",
         "condition": "new",
-        "image": "/src/assets/Tyres/Roadcruza/roadcruza-17570r14-ra610.png",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-17570r14-ra610.png",
         "description": "reliable all-season tyre for passenger cars"
     }
 ]

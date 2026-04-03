@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./dist/output.css">
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
-<body class="font-sans bg-page">
+<body class="font-sans bg-page pt-14 md:pt-0">
     <!-- Navbar -->
-     <header class="bg-brand-dark h-14 flex items-center justify-between  px-5 md:px-10 text-brand-subtle w-full relative">
+     <header class="bg-brand-dark h-14 flex items-center justify-between  px-5 md:px-10 text-brand-subtle w-full fixed md:relative top-0 md:top-auto z-50">
 
         <!-- Logo -->
         <div class="flex items-center gap-3">
@@ -53,7 +53,7 @@
     </header>
 
      <!-- Mobile menu -->
-      <div id="mobile-menu" class="hidden absolute top-14 left-0 w-full bg-brand-dark px-6 py-4 flex flex-col gap-4 md:hidden z-50">
+      <div id="mobile-menu" class="hidden fixed top-14 left-0 w-full bg-brand-dark px-6 py-4 flex flex-col gap-4 md:hidden z-50">
         <a href="#services" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200 border-b py-4 border-page">Services</a>
         <a href="#products" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200 border-b py-4">Products</a>
         <a href="#why-us" class="text-brand-subtle text-sm font-medium opacity-80 hover:opacity-100 transition-opacity duration-200 border-b py-4">Why Us</a>

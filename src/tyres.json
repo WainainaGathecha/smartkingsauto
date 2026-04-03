@@ -1,72 +1,562 @@
 [
     {
         "id": 1,
-        "brand": "Michelin",
-        "size": "165/R13c-8pr-ra350",
-        "price": 8500,
+        "brand": "RoadCruza",
+        "size": "165/R13c-8pr",
+        "price": 7800,
         "vehicleType": "passenger",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-165-r13c-new.webp",
-        "description": "reliable all-season tyre for passenger cars"
+        "description": "compact and fuel-efficient tyre for small passenger cars"
     },
     {
         "id": 2,
         "brand": "RoadCruza",
-        "size": "185/r14c-ra350",
-        "price": 20000,
+        "size": "185/R14c-8pr",
+        "price": 19500,
         "vehicleType": "matatu",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-185-r14c-new.webp",
-        "description": "reliable all-season tyre for passenger cars"
+        "description": "commercial-grade tyre for vans and matatus with reinforced construction"
     },
     {
         "id": 3,
-        "brand": "Bridgestone",
-        "size": "195/r14c-ra350",
-        "price": 1800,
+        "brand": "RoadCruza",
+        "size": "195/R14c-8pr",
+        "price": 17800,
         "vehicleType": "truck",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-195r14c-ra350.jpg",
-        "description": "reliable all-season tyre for passenger cars"
+        "description": "heavy-duty commercial truck tyre with excellent load-bearing capacity"
     },
     {
         "id": 4,
         "brand": "RoadCruza",
-        "size": "175/65r14c-ra610",
-        "price": 8500,
+        "size": "175/65R14",
+        "price": 9200,
         "vehicleType": "passenger",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-17565r14-ra610.png",
-        "description": "reliable all-season tyre for passenger cars"
+        "description": "smooth-riding tyre for sedan and hatchback vehicles"
     },
     {
         "id": 5,
         "brand": "RoadCruza",
-        "size": "175/70r13c-ra350",
-        "price": 8500,
+        "size": "175/70R13c-8pr",
+        "price": 7200,
         "vehicleType": "matatu",
         "condition": "used",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-17570r13c-ra350.jpg",
-        "description": "reliable all-season tyre for passenger cars"
+        "description": "budget-friendly used commercial tyre for cost-conscious operators"
     },
     {
         "id": 6,
         "brand": "RoadCruza",
-        "size": "175/70r13-ra610",
-        "price": 8500,
+        "size": "175/70R13",
+        "price": 8300,
         "vehicleType": "passenger",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-17570r13-ra610.jpg",
-        "description": "reliable all-season tyre for passenger cars"
+        "description": "dependable tyre for compact and economy cars"
     },
     {
         "id": 7,
         "brand": "RoadCruza",
-        "size": "175/70r14-ra610",
-        "price": 8500,
+        "size": "175/70R14",
+        "price": 9100,
         "vehicleType": "passenger",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-17570r14-ra610.png",
-        "description": "reliable all-season tyre for passenger cars"
+        "description": "versatile family car tyre with balanced comfort and grip"
+    },
+    {
+        "id": 8,
+        "brand": "RoadCruza",
+        "size": "175/80R14",
+        "price": 9200,
+        "vehicleType": "matatu",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-17580r14-ra1100.jpg",
+        "description": "durable matatu tyre with excellent load capacity"
+    },
+    {
+        "id": 9,
+        "brand": "RoadCruza",
+        "size": "175/80R14",
+        "price": 9500,
+        "vehicleType": "matatu",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-17580r14-ra7000.jpg",
+        "description": "premium matatu tyre for long-distance routes"
+    },
+    {
+        "id": 10,
+        "brand": "RoadCruza",
+        "size": "185/65R15",
+        "price": 10200,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-18565r15-ra510.jpg",
+        "description": "comfortable all-season tyre for sedan and compact cars"
+    },
+    {
+        "id": 11,
+        "brand": "RoadCruza",
+        "size": "185/70R13",
+        "price": 8800,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-18570r13-ra510.jpg",
+        "description": "reliable tyre for compact and budget vehicles"
+    },
+    {
+        "id": 12,
+        "brand": "RoadCruza",
+        "size": "185/70R14",
+        "price": 9200,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-18570r14-ra510.jpg",
+        "description": "smooth ride tyre for family cars"
+    },
+    {
+        "id": 13,
+        "brand": "RoadCruza",
+        "size": "185/70R14c-8pr",
+        "price": 11500,
+        "vehicleType": "matatu",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-18570r14c-8pr-ra350.jpg",
+        "description": "commercial grade tyre for vans and light trucks"
+    },
+    {
+        "id": 14,
+        "brand": "RoadCruza",
+        "size": "185R14c",
+        "price": 12000,
+        "vehicleType": "matatu",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-185r14c-ra350.jpg",
+        "description": "heavy-duty commercial tyre"
+    },
+    {
+        "id": 15,
+        "brand": "RoadCruza",
+        "size": "195/55R16",
+        "price": 11800,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-19555r16-ra510.jpg",
+        "description": "performance tyre for sedan and sports cars"
+    },
+    {
+        "id": 16,
+        "brand": "RoadCruza",
+        "size": "195/65R15",
+        "price": 10800,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-19565r15-ra510.jpg",
+        "description": "versatile tyre for mid-size passenger vehicles"
+    },
+    {
+        "id": 17,
+        "brand": "RoadCruza",
+        "size": "195/65R15c-8pr",
+        "price": 12500,
+        "vehicleType": "matatu",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-19565r15c-8pr-ra350.png",
+        "description": "commercial van tyre with reinforced construction"
+    },
+    {
+        "id": 18,
+        "brand": "RoadCruza",
+        "size": "205/55R16",
+        "price": 12200,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-20555r16-ra1100.jpg",
+        "description": "premium performance tyre for larger sedans"
+    },
+    {
+        "id": 19,
+        "brand": "RoadCruza",
+        "size": "205/55R16",
+        "price": 11500,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-20555r16-ra510.jpg",
+        "description": "popular tyre for mid to large cars"
+    },
+    {
+        "id": 20,
+        "brand": "RoadCruza",
+        "size": "205/60R16",
+        "price": 12800,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-20560r16-ra1100.jpg",
+        "description": "comfortable touring tyre for family vehicles"
+    },
+    {
+        "id": 21,
+        "brand": "RoadCruza",
+        "size": "205/60R16",
+        "price": 11800,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-20560r16-ra510.png",
+        "description": "reliable all-season tyre for SUVs and crossovers"
+    },
+    {
+        "id": 22,
+        "brand": "RoadCruza",
+        "size": "205/65R15",
+        "price": 11200,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-20565r15-ra1100.jpg",
+        "description": "versatile tyre for sedans and hatchbacks"
+    },
+    {
+        "id": 23,
+        "brand": "RoadCruza",
+        "size": "205/65R15",
+        "price": 10800,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-20565r15-ra510.jpg",
+        "description": "budget-friendly option for family cars"
+    },
+    {
+        "id": 24,
+        "brand": "RoadCruza",
+        "size": "205/70R15",
+        "price": 10200,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-20570r15-ra510.jpg",
+        "description": "comfort-focused tyre for older vehicle models"
+    },
+    {
+        "id": 25,
+        "brand": "RoadCruza",
+        "size": "215/45R17",
+        "price": 13500,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-21545r17-ra710.jpg",
+        "description": "sport tyre for performance and luxury vehicles"
+    },
+    {
+        "id": 26,
+        "brand": "RoadCruza",
+        "size": "215/50R17",
+        "price": 13200,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-21550r17-ra710.jpg",
+        "description": "balanced sport and comfort tyre"
+    },
+    {
+        "id": 27,
+        "brand": "RoadCruza",
+        "size": "215/55R16",
+        "price": 12500,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-21555r16-ra710.jpg",
+        "description": "premium tyre for large family vehicles"
+    },
+    {
+        "id": 28,
+        "brand": "RoadCruza",
+        "size": "215/55R17",
+        "price": 13800,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-21555r17-ra710.jpg",
+        "description": "high-performance tyre for premium sedans"
+    },
+    {
+        "id": 29,
+        "brand": "RoadCruza",
+        "size": "215/60R16",
+        "price": 12300,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-21560r16-ra510.jpg",
+        "description": "all-season tyre for family sedans and SUVs"
+    },
+    {
+        "id": 30,
+        "brand": "RoadCruza",
+        "size": "215/65R16",
+        "price": 12700,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-21565r16-ra1100.jpg",
+        "description": "durable tyre for larger vehicles and light vans"
+    },
+    {
+        "id": 31,
+        "brand": "RoadCruza",
+        "size": "215/65R16",
+        "price": 13200,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-21565r16-ra2000.jpg",
+        "description": "premium durability tyre for long-distance driving"
+    },
+    {
+        "id": 32,
+        "brand": "RoadCruza",
+        "size": "215/70R16",
+        "price": 11800,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-21570r16-ra2000.jpg",
+        "description": "comfort tyre for family vehicles and light trucks"
+    },
+    {
+        "id": 33,
+        "brand": "RoadCruza",
+        "size": "215/75R16c-10pr",
+        "price": 16500,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-21575r16c-10pr-ra1100.png",
+        "description": "heavy-duty tyre for commercial trucks"
+    },
+    {
+        "id": 34,
+        "brand": "RoadCruza",
+        "size": "215/75R16c",
+        "price": 15800,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-21575r16c-ra350.jpg",
+        "description": "commercial truck tyre with reinforced sidewalls"
+    },
+    {
+        "id": 35,
+        "brand": "RoadCruza",
+        "size": "225/55R18",
+        "price": 14500,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-22555r18-ra4100.jpg",
+        "description": "sport tyre for high-performance vehicles"
+    },
+    {
+        "id": 36,
+        "brand": "RoadCruza",
+        "size": "225/60R17",
+        "price": 14200,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-22560r17-ra1100.png",
+        "description": "premium all-season tyre for luxury vehicles"
+    },
+    {
+        "id": 37,
+        "brand": "RoadCruza",
+        "size": "235/65R17",
+        "price": 15200,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-23565r17-ra1100.jpg",
+        "description": "large vehicle tyre for SUVs and luxury cars"
+    },
+    {
+        "id": 38,
+        "brand": "RoadCruza",
+        "size": "235/75R15",
+        "price": 14800,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-23575r15-6pr-ra1100.jpg",
+        "description": "commercial tyre for trucks and buses"
+    },
+    {
+        "id": 39,
+        "brand": "RoadCruza",
+        "size": "235/75R15",
+        "price": 15500,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-23575r15-6pr-ra3200.jpg",
+        "description": "heavy-load commercial tyre with enhanced durability"
+    },
+    {
+        "id": 40,
+        "brand": "RoadCruza",
+        "size": "LT225/65R17",
+        "price": 18500,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt22565r17-ra1100.jpg",
+        "description": "light truck tyre for pickup and commercial vehicles"
+    },
+    {
+        "id": 41,
+        "brand": "RoadCruza",
+        "size": "LT225/75R16",
+        "price": 19200,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt22575r16-10pr-ra3200.png",
+        "description": "durable light truck tyre for heavy loads"
+    },
+    {
+        "id": 42,
+        "brand": "RoadCruza",
+        "size": "LT235/60R18",
+        "price": 19800,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt23560r18-ra1100.jpg",
+        "description": "premium light truck tyre for modern vehicles"
+    },
+    {
+        "id": 43,
+        "brand": "RoadCruza",
+        "size": "LT235/70R16",
+        "price": 19500,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt23570r16-8pr-ra1100.jpg",
+        "description": "versatile light truck tyre for various road conditions"
+    },
+    {
+        "id": 44,
+        "brand": "RoadCruza",
+        "size": "LT245/75R16",
+        "price": 20500,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt24575r16-ra1100.jpg",
+        "description": "rugged light truck tyre for tough terrain"
+    },
+    {
+        "id": 45,
+        "brand": "RoadCruza",
+        "size": "LT245/75R16",
+        "price": 21200,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt24575r16-ra3200.jpg",
+        "description": "premium light truck tyre with extended tread life"
+    },
+    {
+        "id": 46,
+        "brand": "RoadCruza",
+        "size": "LT265/65R17",
+        "price": 21800,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt26565r17-ra1100.jpg",
+        "description": "heavy light truck tyre with superior load capacity"
+    },
+    {
+        "id": 47,
+        "brand": "RoadCruza",
+        "size": "LT265/70R16",
+        "price": 21500,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt26570r16-ra1100.jpg",
+        "description": "all-terrain light truck tyre"
+    },
+    {
+        "id": 48,
+        "brand": "RoadCruza",
+        "size": "LT265/70R17",
+        "price": 22200,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt26570r17-ra1100.jpg",
+        "description": "premium all-terrain light truck tyre"
+    },
+    {
+        "id": 49,
+        "brand": "RoadCruza",
+        "size": "LT265/70R17",
+        "price": 23100,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt26570r17-ra3200.jpg",
+        "description": "extended durability light truck tyre for long hauls"
+    },
+    {
+        "id": 50,
+        "brand": "RoadCruza",
+        "size": "LT265/75R16",
+        "price": 22800,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt26575r16-10pr-ra1100.jpg",
+        "description": "heavy-load light truck tyre for commercial use"
+    },
+    {
+        "id": 51,
+        "brand": "RoadCruza",
+        "size": "LT265/75R16",
+        "price": 23500,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt26575r16-10pr-ra3200.jpg",
+        "description": "premium heavy-load tyre for demanding routes"
+    },
+    {
+        "id": 52,
+        "brand": "RoadCruza",
+        "size": "LT265/75R16",
+        "price": 24200,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt26575r16-10pr-ra8000.jpg",
+        "description": "extreme-durability light truck tyre for harsh conditions"
+    },
+    {
+        "id": 53,
+        "brand": "RoadCruza",
+        "size": "LT31x10.5R15",
+        "price": 25500,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt31x10.5r15-ra1100.jpg",
+        "description": "oversized light truck tyre for extreme terrain"
+    },
+    {
+        "id": 54,
+        "brand": "RoadCruza",
+        "size": "LT31x10.5R15",
+        "price": 26500,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-lt31x10.5r15-ra3200.jpg",
+        "description": "premium oversized light truck tyre with enhanced grip"
+    },
+    {
+        "id": 55,
+        "brand": "RoadCruza",
+        "size": "P215/60R17",
+        "price": 14800,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-p21560r17-ra1100.png",
+        "description": "passenger car tyre for sedan and compact crossovers"
+    },
+    {
+        "id": 56,
+        "brand": "RoadCruza",
+        "size": "P235/55R18",
+        "price": 15500,
+        "vehicleType": "passenger",
+        "condition": "new",
+        "image": "/src/assets/Tyres/RoadCruza/roadcruza-p23555r18-ra1100.png",
+        "description": "premium passenger tyre for luxury and sport vehicles"
     }
 ]

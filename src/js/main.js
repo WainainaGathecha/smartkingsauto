@@ -33,12 +33,14 @@ const filterBtns = document.querySelectorAll('.filter-btn');
 
 //load data
 let allTyres = [];
+//sho empty state on page load
+emptyState.classList.remove('hidden');
+resultsCount.textContent = '';
 
 fetch('./src/tyres.json')
     .then(response => response.json())
     .then(data => {
         allTyres = data;
-        renderTyres(allTyres);
     })
     .catch(error => {
         console.error('Failed to load tyre data:', error);
@@ -232,4 +234,9 @@ document.querySelectorAll('#mobile-menu a').forEach(link => {
     link.addEventListener('click', () => {
         mobileMenu.classList.add('hidden');
     });
+});
+
+//scroll to filter section on page load
+window.addEventListener('load', () => {
+    document.getElementById('products').scrollIntoView({behavior: 'smooth'});
 });

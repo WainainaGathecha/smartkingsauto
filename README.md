@@ -87,3 +87,31 @@ Visit the live site or run it locally following the installation steps above
 ## Project status
 
 In progress
+
+## Project Structure
+
+Smart Kings/
+   index.html
+   src/
+      assets/
+         images/
+         tyres/
+      css
+         main.css
+      js
+         main.js
+   server/
+      index.js
+      database.js
+      routes/
+         tyres.js
+         auth.js
+      mdiddleware/
+         auth.js
+   admin/
+      index.html
+   .env
+   package.json
+   package-lock.json
+   .gitignore
+   vercel.json

@@ -14,7 +14,7 @@ db.exec(`
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     brand TEXT NOT NULL,
     size TEXT NOT NULL,
-    price INTEGER NOT NULL
+    price INTEGER NOT NULL,
     vehicleType TEXT NOT NULL,
     condition TEXT NOT NULL,
     description TEXT,

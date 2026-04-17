@@ -4,9 +4,13 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
+if (!process.env.ADMIN_USERNAME || !process.env.ADMIN_PASSWORD || !process.env.JWT_SECRET) {
+    throw new Error('Missing required environment variables');
+}
+
 // POST /api/auth/login
 // Verifies credentials and returns a token
-router.post('/login', async (requestAnimationFrame, res) => {
+router.post('/login', async (req, res) => {
     const { username, password} = req.body;
 
     // Check username matches
@@ -37,7 +41,8 @@ router.post('/login', async (requestAnimationFrame, res) => {
 
     res.json({
         status: 'success',
-        message: 'Login successful'
+        message: 'Login successful',
+        token: token
     });
 });
 

@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
             ORDER BY brand ASC
         `).all();
         res.json({
-            status: 'sucess',
+            status: 'success',
             count: tyres.length,
             data: tyres
         });
@@ -121,7 +121,7 @@ router.delete('/:id', verifyToken, (req, res) => {
     const {id} = req.params;
 
     try {
-        const existing = db.prapare('SELECT id FROM tyres WHERE id = ?').get(id);
+        const existing = db.prepare('SELECT id FROM tyres WHERE id = ?').get(id);
         if (!existing) {
             return res.status(404).json({
                 status: 'error',

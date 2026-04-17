@@ -7,7 +7,7 @@ require('dotenv').config();
 function verifyToken(req, res, next) {
     // Token arrives in Authentication header
     // Format: "Bearer eyygsdjjsdhkkckn..."
-    const autHeader = req.headers['authorization'];
+    const authHeader = req.headers['authorization'];
     const token = authHeader && authHeader.split(' ')[1];
 
     if (!token) {

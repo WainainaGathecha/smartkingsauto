@@ -18,7 +18,7 @@ app.use(express.json());
 // Allow requests from the frontend
 // In production replace (*) with the actual domain
 app.use(cors({
-    origin: ''
+    origin: process.env.CORS_ORIGIN || 'http://localhost:3000'
 }));
 
 // Serve static files - HTML CSS JS

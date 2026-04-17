@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/css/main.css -o ./dist/output.css --watch",
+    "server": "nodemon server/index.js",
     "build": "npx tailwindcss -i ./src/css/main.css -o ./dist/output.css --minify"
   },
   "keywords": [],

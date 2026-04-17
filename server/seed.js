@@ -6,7 +6,7 @@ const tyres = require('../src/tyres.json');
 console.log('Seeding database with tyre data...');
 
 const insert = db.prepare(`
-    INSERT INTO tyres (brand, size, price, vehicleType, condition, dscription, image)
+    INSERT INTO tyres (brand, size, price, vehicleType, condition, description, image)
     VALUES (?, ?, ?, ?, ?, ?, ?)
 `);
 

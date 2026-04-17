@@ -229,7 +229,7 @@
         async function loadTyres() {
             try {
                 const res = await fetch ('/api/tyres/all', {
-                    headers: {'Authorization': `Bearer &{token}`}
+                    headers: {'Authorization': `Bearer ${token}`}
                 });
 
                 if (res.status === 403) {
@@ -239,7 +239,7 @@
 
                 const data = await res.json();
                 renderTable(data.data);
-                document.getElementById('tyre-count').textContent = `&{data.data.length} tyres total`;
+                document.getElementById('tyre-count').textContent = `${data.data.length} tyres total`;
             } catch (err) {
                 showAlert('dashboard-alert', 'Failed to load tyres', 'error');
             }
@@ -317,13 +317,13 @@
         }
 
         // Edit - populate form
-        async function editTyre() {
+        async function editTyre(id) {
             try {
                 const res = await fetch('/api/tyres/all', {
                     headers: {'Authorization': `Bearer ${token}`}
                 });
                 const data = await res.json();
-                const tyre = data.data. find(t => t.id === id);
+                const tyre = data.data.find(t => t.id === id);
                 if (!tyre) return;
 
                 document.getElementById('edit-id').value = tyre.id;

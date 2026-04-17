@@ -185,7 +185,7 @@
 
             try {
                 const res = await fetch('/api/auth/login', {
-                    methof: 'POST',
+                    method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({username, password})
                 });
@@ -214,7 +214,7 @@
             localStorage.removeItem('sk_admin_token');
             token = null;
             document.getElementById('dashboard').classList.add('hidden');
-            document.getElementById('login-screen').classList.remover('hidden');
+            document.getElementById('login-screen').classList.remove('hidden');
         }
 
         // Show dashboard

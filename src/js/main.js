@@ -37,7 +37,7 @@ let allTyres = [];
 emptyState.classList.remove('hidden');
 resultsCount.textContent = '';
 
-fetch('./src/tyres.json')
+fetch('/api/tyres')
     .then(response => response.json())
     .then(data => {
         allTyres = data;

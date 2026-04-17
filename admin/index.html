@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Kings - Admin</title>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <style>
+        * {box-sizing: border-box; margin: 0; padding: 0;}
+        body {font-family: system-ui, sans-serif; background: #f5f5f5; color: #263238;}
+        .hidden {display: none;}
+
+        /* Login screen */
+        .login-screen {min-height: 100vh; display: flex; align-items: center; justify-content: center;}
+        .login-card { background: white; padding: 2rem; border-radius: 12px; width: 100%; max-width: 380px; box-shadow: 0 px 12px rgba(0,0,0,0.08);}
+        .login-card h1 {font-size: 1.25rem; font-weight: 700; margin-bottom: 0.25rem; }
+        .login-card p {font-size: 0.875rem; color: #607d8b; margin-bottom: 1.5rem; }
+
+        /* Dashboard */
+        .dashboard {max-width: 1100px; margin: 0 auto; padding: 2rem 1rem;}
+        .topbar {display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;}
+        .topbar h1 {font-size: 1.25rem; font-weight: 700;}
+
+        /* Form */
+        .form-card {background: white; border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem;}
+        .form-card h2 {font-size: 1rem; font-weight: 600; margin-bottom: 1rem;}
+        .form-grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem;}
+        label {display: block; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05rem; color: #607d8b; margin-bottom: 0.375rem;}
+        input, select, textarea { width: 100%; border: 1px solid #e0e0e0; border-radius: 6px; padding: 0.625rem; font-size: 0.875rem; font-family: inherit;}
+        input:focus, select:focus { outline: none; border-color: #f57c00;}
+        textarea{resize: vertical; min-height: 80px;}
+        .form-actions{margin-top: 1rem; display:flex; gap: 0.75rem;}
+
+        /* Table */
+        .table-card {background: white; border-radius: 12px; padding: 1.5rem; overflow-x: auto;}
+        .table-card h2 {font-size: 1rem; font-weight: 600; margin-bottom: 1rem;}
+        table {width: 100%; border-collapse: collapse; font-size: 0.875rem;}
+        th {text-align: left; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05rem; color: #607d8b; padding: 0.5rem 0.75rem; border-bottom: 2px solid #f5f5f5;}
+        td {padding: 0.75rem; border-bottom: 1px solid #f5f5f5; vertical-align: middle;}
+        tr:last-child td {border-bottom: none;}
+        .badge {display: inline-block; padding: 0.2rem 0.6rem; border-radius: 20px; font-size: 0.7rem; font-weight: 600;}
+        .badge-new {background: #fff3e0; color: #e65100;}
+        .badge-used {background: #eceff1; color: #546e7a;}
+        .badge-in { background: #e8f5e9; color: #2e7d32;}
+        .badge-out {background: #ffebee; color: #c62828;}
+
+        /* Buttons */
+        .btn {padding: 0.625rem 1.25rem; border-radius: 6px; font-size: 0.875rem;font-weight: 600; border: none; cursor: pointer; display: inline-flex; align-items: center; gap: 0.5rem;}
+        .btn-primary { background: #f57c00; color: white;}
+        .btn-primary:hover {background: #e65100;}
+        .btn-secondary {background: #f5f5f5; color: #263238;}
+        .btn-secondary:hover {background: #e0e0e0;}
+        .btn-danger {background: #ffebee; color: #c62828;}
+        .btn-danger:hover {background: #ffcdd2;}
+        .btn-sm {padding: 0.375rem 0.75rem; font-size: 0.75rem;}
+        .btn-logout {background: none; border: 1px solid #e0e0e0; color: #607d8b;}
+
+        .alert {padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.875rem; margin-bottom: 1rem;}
+        .alert-success {background: #e8f5e9; color: #2e7d32;}
+        .alert-error {background: #ffebee; color: #c62828;}
+    </style>
+</head>
+<body>
+    <!-- Login screen -->
+    <div id="login-screen" class="login-screen">
+        <div class="login-card">
+            <h1>Smart Kings Admin</h1>
+            <p>Sign in to manage your tyre inventory</p>
+            <div id="login-alert"></div>
+            <div style="margin-bottom:1rem;">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username">
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+            </div>
+            <button class="btn btn-primary" style="width:100%;" onclick="login()">Sign In</button>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="hidden" id="dashboard">
+        <div class="dashboard">
+            <div class="topbar">
+                <div>
+                    <h1>Smart Kings - Tyre Inventory</h1>
+                    <p style="font-size:0.875rem;color:#607d8b;" id="tyre-count"></p>
+                </div>
+                <button class="btn btn-logout" onclick="logout()">Sign Out</button>
+            </div>
+
+            <div id="dashboard-alert"></div>
+
+            <!-- Add/edit form -->
+            <div class="form-card">
+                <h2 id="form-title">Add new tyres</h2>
+                <input type="hidden" id="edit-id">
+                <div class="form-grid">
+                    <div>
+                        <label for="brand">Brand</label>
+                        <input type="text" id="brand" placeholder="e.g. RoadCruza">
+                    </div>
+                    <div>
+                        <label for="size">Size</label>
+                        <input type="text" id="size" placeholder="e.g. 185/70R14">
+                    </div>
+                    <div>
+                        <label for="price">Price</label>
+                        <input type="number" id="price" placeholder="e.g. 8500">
+                    </div>
+                    <div>
+                        <label for="vehicleType">Vehicle Type</label>
+                        <select id="vehicleType">
+                            <option value="passenger">Passenger</option>
+                            <option value="matatu">Matatu</option>
+                            <option value="truck">Truck</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="condition">Condition</label>
+                        <select id="condition">
+                            <option value="new">New</option>
+                            <option value="used">Used</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="inStock">Stock Status</label>
+                        <select id="inStock">
+                            <option value="1">In stock</option>
+                            <option value="0">Out of stock</option>
+                        </select>
+                    </div>
+                    <div style="grid-column: 1/-1;">
+                        <label for="description">Description</label>
+                        <textarea id="description" placeholder="Brief descriptionof this tyre"></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button class="btn btn-primary" onclick="saveTyre()">
+                            <i data-lucide="save" styre="width:16px;height:16px;"></i>
+                            Save tyre
+                        </button>
+                        <button class="btn btn-secondary" onclick="resetForm()">Cancel</button>
+                    </div>
+                </div>
+
+                <!-- Tyre Table -->
+                <div class="table-card">
+                    <h2>All Tyres</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Brand</th>
+                                <th>Size</th>
+                                <th>Price</th>
+                                <th>Vehicle</th>
+                                <th>Condition</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tyre-table-body">
+                            <tr><td colspan="7" style="text-align:center;color:#90a4ae;padding:2rem;">Loading...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // state
+        let token = localStorage.getItem('sk_admin_token');
+
+        // init
+        // if a token exists from a previous session
+        //show the dashboard immediately
+        if (token) {
+            showDashboard();
+        }
+
+        // Login
+        async function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            try {
+                const res = await fetch('/api/auth/login', {
+                    methof: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({username, password})
+                });
+
+                const data = await res.json();
+
+                if (data.status == 'success') {
+                    token = data.token;
+                    localStorage.setItem('sk_admin_token', token);
+                    showDashboard();
+                } else {
+                    showAlert('login-alert', data.message, 'error');
+                }
+            } catch (err) {
+                showAlert('login-alert', 'Connection failed. Is the server running?', 'error');
+            }
+        }
+
+        // Allow pressing Enter to log in
+        document.getElementById('password').addEventListener('keypress', e => {
+            if (e.key === 'Enter') login();
+        });
+
+        // Logout
+        function logout() {
+            localStorage.removeItem('sk_admin_token');
+            token = null;
+            document.getElementById('dashboard').classList.add('hidden');
+            document.getElementById('login-screen').classList.remover('hidden');
+        }
+
+        // Show dashboard
+        function showDashboard() {
+            document.getElementById('login-screen').classList.add('hidden');
+            document.getElementById('dashboard').classList.remove('hidden');
+            loadTyres();
+            lucide.createIcons();
+        }
+
+        // Load all tyres
+        async function loadTyres() {
+            try {
+                const res = await fetch ('/api/tyres/all', {
+                    headers: {'Authorization': `Bearer &{token}`}
+                });
+
+                if (res.status === 403) {
+                    logout();
+                    return;
+                }
+
+                const data = await res.json();
+                renderTable(data.data);
+                document.getElementById('tyre-count').textContent = `&{data.data.length} tyres total`;
+            } catch (err) {
+                showAlert('dashboard-alert', 'Failed to load tyres', 'error');
+            }
+        }
+
+        // Render table rows
+        function renderTable(tyres) {
+            const tbody = document.getElementById('tyre-table-body');
+
+            if (tyres.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:#90a4ae;padding:2rem;">No Tyres yet. Add your first one above.</td></tr>';
+                return;
+            }
+            
+            tbody.innerHTML = tyres.map(tyre => `
+                <tr>
+                    <td><strong>${tyre.brand}</strong></td>
+                    <td style="font-family:monospace;">${tyre.size}</td>
+                    <td>Ksh ${tyre.price.toLocaleString()}</td>
+                    <td style="text-transform:capitalize;">${tyre.vehicleType}</td>
+                    <td><span class="badge ${tyre.condition === 'new' ? 'badge-new' : 'badge-used'}">${tyre.condition}</span></td>
+                    <td><span class="badge ${tyre.inStock ? 'badge-in' : 'badge-out'}">${tyre.inStock ? 'In stock' : 'Out of stock'}</span></td>
+                    <td>
+                        <button class="btn btn-secondary btn-sm" onclick="editTyre(${tyre.id})">Edit</button>
+                        <button class="btn btn-danger btn-sm" onclick="deleteTyre(${tyre.id}, '${tyre.brand} ${tyre.size}')">Delete</button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        // Save (add or update)
+        async function saveTyre() {
+            const id = document.getElementById('edit-id').value;
+            const body = {
+                brand: document.getElementById('brand').value,
+                size: document.getElementById('size').value,
+                price: document.getElementById('price').value,
+                vehicleType: document.getElementById('vehicleType').value,
+                condition: document.getElementById('condition').value,
+                inStock: document.getElementById('inStock').value,
+                description: document.getElementById('description').value,
+                image: document.getElementById('image').value,
+            };
+
+            if (!body.brand || !body.size || !body.price) {
+                showAlert('dashboard-alert', 'Brand, size, and price are required', 'error');
+                return;
+            }
+            const isEdit = id !== '';
+            const url = isEdit ? `/api/tyres/${id}` : '/api/tyres';
+            const method = isEdit ? 'PUT' : 'POST';
+
+            try {
+                const res = await fetch(url, {
+                    method,
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}`
+                    },
+                    body: JSON.stringify(body)
+                });
+
+                const data = await res.json();
+
+                if (data.status === 'success') {
+                    showAlert('dashboard-alert', isEdit ? 'Tyre updated successfully' : 'Tyre added successfully', 'success');
+                    resetForm();
+                    loadTyres();
+                } else {
+                    showAlert('dashboard-alert', data.message, 'error');
+                }
+            } catch (err) {
+                showAlert('dashboard-alert', 'Failed to save tyre', 'error');
+            }
+        }
+
+        // Edit - populate form
+        async function editTyre() {
+            try {
+                const res = await fetch('/api/tyres/all', {
+                    headers: {'Authorization': `Bearer ${token}`}
+                });
+                const data = await res.json();
+                const tyre = data.data. find(t => t.id === id);
+                if (!tyre) return;
+
+                document.getElementById('edit-id').value = tyre.id;
+                document.getElementById('brand').value = tyre.brand;
+                document.getElementById('size').value = tyre.size;
+                document.getElementById('price').value = tyre.price;
+                document.getElementById('vehicleType').value = tyre.vehicleType;
+                document.getElementById('condition').value = tyre.condition;
+                document.getElementById('inStock').value = tyre.inStock;
+                document.getElementById('description').value = tyre.description;
+                document.getElementById('image').value = tyre.image;
+                document.getElementById('form-title').textContent = `Editing - ${tyre.brand} $tyre.size`;
+
+                // Scroll to form
+                document.querySelector('.form-card').scrollIntoView({behavior: 'smooth'});
+            } catch (err) {
+                showAlert('dashboard-alert', 'Failed to load tyre details', 'error');
+            } 
+        }
+
+        // Delete
+        async function deleteTyre(id, name) {
+            if (!confirm(`Delete ${name}? This cannot be undone.`)) return;
+
+            try {
+                const res = await fetch (`/api/tyres/${id}`, {
+                    method: 'DELETE',
+                    headers: {'Authorization': `Bearer ${token}`}
+                });
+
+                const data = await res.json();
+
+                if (data.status === 'success') {
+                    showAlert('dashboard-alert', `${name} deleted`, 'success');
+                    loadTyres();
+                }
+            } catch (err) {
+                showAlert('dashboard-alert', 'Failed to delete tyre', 'error');
+            }
+        }
+
+        // Reset Form
+        function resetForm() {
+            document.getElementById('edit-id').value='';
+            document.getElementById('brand').value='';
+            document.getElementById('size').value='';
+            document.getElementById('price').value='';
+            document.getElementById('vehicleType').value='passenger';
+            document.getElementById('condition').value='new';
+            document.getElementById('inStock').value='1';
+            document.getElementById('description').value='';
+            document.getElementById('image').value='';
+            document.getElementById('form-title').textContent='Add new tyre';
+        }
+
+        // Alert helper
+        function showAlert(containerId, message, type) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = `div class="alert alert-${type}">${message}</div>`
+            setTimeout(() => container.innerHTML = '', 4000);
+        }
+    </script>    
+</body>
+</html>

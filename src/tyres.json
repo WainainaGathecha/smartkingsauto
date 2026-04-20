@@ -4,7 +4,7 @@
         "brand": "RoadCruza",
         "size": "165/R13c-8pr",
         "price": 7800,
-        "vehicleType": "passenger",
+        "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-165-r13c-new.webp",
         "description": "compact and fuel-efficient tyre for small passenger cars"
@@ -14,7 +14,7 @@
         "brand": "RoadCruza",
         "size": "185/R14c-8pr",
         "price": 19500,
-        "vehicleType": "matatu",
+        "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-185-r14c-new.webp",
         "description": "commercial-grade tyre for vans and matatus with reinforced construction"
@@ -24,7 +24,7 @@
         "brand": "RoadCruza",
         "size": "195/R14c-8pr",
         "price": 17800,
-        "vehicleType": "truck",
+        "vehicleType": "matatu",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-195r14c-ra350.jpg",
         "description": "heavy-duty commercial truck tyre with excellent load-bearing capacity"
@@ -34,7 +34,7 @@
         "brand": "RoadCruza",
         "size": "175/65R14",
         "price": 9200,
-        "vehicleType": "passenger",
+        "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-17565r14-ra610.png",
         "description": "smooth-riding tyre for sedan and hatchback vehicles"
@@ -44,7 +44,7 @@
         "brand": "RoadCruza",
         "size": "175/70R13c-8pr",
         "price": 7200,
-        "vehicleType": "matatu",
+        "vehicleType": "saloon",
         "condition": "used",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-17570r13c-ra350.jpg",
         "description": "budget-friendly used commercial tyre for cost-conscious operators"
@@ -54,7 +54,7 @@
         "brand": "RoadCruza",
         "size": "175/70R13",
         "price": 8300,
-        "vehicleType": "passenger",
+        "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-17570r13-ra610.jpg",
         "description": "dependable tyre for compact and economy cars"
@@ -64,7 +64,7 @@
         "brand": "RoadCruza",
         "size": "175/70R14",
         "price": 9100,
-        "vehicleType": "passenger",
+        "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-17570r14-ra610.png",
         "description": "versatile family car tyre with balanced comfort and grip"
@@ -74,7 +74,7 @@
         "brand": "RoadCruza",
         "size": "175/80R14",
         "price": 9200,
-        "vehicleType": "matatu",
+        "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-17580r14-ra1100.jpg",
         "description": "durable matatu tyre with excellent load capacity"
@@ -84,7 +84,7 @@
         "brand": "RoadCruza",
         "size": "175/80R14",
         "price": 9500,
-        "vehicleType": "matatu",
+        "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-17580r14-ra7000.jpg",
         "description": "premium matatu tyre for long-distance routes"
@@ -94,7 +94,7 @@
         "brand": "RoadCruza",
         "size": "185/65R15",
         "price": 10200,
-        "vehicleType": "passenger",
+        "vehicleType": "matatu",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-18565r15-ra510.jpg",
         "description": "comfortable all-season tyre for sedan and compact cars"
@@ -104,7 +104,7 @@
         "brand": "RoadCruza",
         "size": "185/70R13",
         "price": 8800,
-        "vehicleType": "passenger",
+        "vehicleType": "matatu",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-18570r13-ra510.jpg",
         "description": "reliable tyre for compact and budget vehicles"
@@ -114,7 +114,7 @@
         "brand": "RoadCruza",
         "size": "185/70R14",
         "price": 9200,
-        "vehicleType": "passenger",
+        "vehicleType": "matatu",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-18570r14-ra510.jpg",
         "description": "smooth ride tyre for family cars"
@@ -144,7 +144,7 @@
         "brand": "RoadCruza",
         "size": "195/55R16",
         "price": 11800,
-        "vehicleType": "passenger",
+        "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-19555r16-ra510.jpg",
         "description": "performance tyre for sedan and sports cars"
@@ -154,7 +154,7 @@
         "brand": "RoadCruza",
         "size": "195/65R15",
         "price": 10800,
-        "vehicleType": "passenger",
+        "vehicleType": "matatu",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-19565r15-ra510.jpg",
         "description": "versatile tyre for mid-size passenger vehicles"
@@ -174,7 +174,7 @@
         "brand": "RoadCruza",
         "size": "205/55R16",
         "price": 12200,
-        "vehicleType": "passenger",
+        "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-20555r16-ra1100.jpg",
         "description": "premium performance tyre for larger sedans"
@@ -184,7 +184,7 @@
         "brand": "RoadCruza",
         "size": "205/55R16",
         "price": 11500,
-        "vehicleType": "passenger",
+        "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-20555r16-ra510.jpg",
         "description": "popular tyre for mid to large cars"
@@ -194,7 +194,7 @@
         "brand": "RoadCruza",
         "size": "205/60R16",
         "price": 12800,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-20560r16-ra1100.jpg",
         "description": "comfortable touring tyre for family vehicles"
@@ -204,7 +204,7 @@
         "brand": "RoadCruza",
         "size": "205/60R16",
         "price": 11800,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-20560r16-ra510.png",
         "description": "reliable all-season tyre for SUVs and crossovers"
@@ -214,7 +214,7 @@
         "brand": "RoadCruza",
         "size": "205/65R15",
         "price": 11200,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-20565r15-ra1100.jpg",
         "description": "versatile tyre for sedans and hatchbacks"
@@ -224,7 +224,7 @@
         "brand": "RoadCruza",
         "size": "205/65R15",
         "price": 10800,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-20565r15-ra510.jpg",
         "description": "budget-friendly option for family cars"
@@ -234,7 +234,7 @@
         "brand": "RoadCruza",
         "size": "205/70R15",
         "price": 10200,
-        "vehicleType": "passenger",
+        "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-20570r15-ra510.jpg",
         "description": "comfort-focused tyre for older vehicle models"
@@ -244,7 +244,7 @@
         "brand": "RoadCruza",
         "size": "215/45R17",
         "price": 13500,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-21545r17-ra710.jpg",
         "description": "sport tyre for performance and luxury vehicles"
@@ -254,7 +254,7 @@
         "brand": "RoadCruza",
         "size": "215/50R17",
         "price": 13200,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-21550r17-ra710.jpg",
         "description": "balanced sport and comfort tyre"
@@ -264,7 +264,7 @@
         "brand": "RoadCruza",
         "size": "215/55R16",
         "price": 12500,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-21555r16-ra710.jpg",
         "description": "premium tyre for large family vehicles"
@@ -274,7 +274,7 @@
         "brand": "RoadCruza",
         "size": "215/55R17",
         "price": 13800,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-21555r17-ra710.jpg",
         "description": "high-performance tyre for premium sedans"
@@ -284,7 +284,7 @@
         "brand": "RoadCruza",
         "size": "215/60R16",
         "price": 12300,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-21560r16-ra510.jpg",
         "description": "all-season tyre for family sedans and SUVs"
@@ -294,7 +294,7 @@
         "brand": "RoadCruza",
         "size": "215/65R16",
         "price": 12700,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-21565r16-ra1100.jpg",
         "description": "durable tyre for larger vehicles and light vans"
@@ -304,7 +304,7 @@
         "brand": "RoadCruza",
         "size": "215/65R16",
         "price": 13200,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-21565r16-ra2000.jpg",
         "description": "premium durability tyre for long-distance driving"
@@ -314,7 +314,7 @@
         "brand": "RoadCruza",
         "size": "215/70R16",
         "price": 11800,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-21570r16-ra2000.jpg",
         "description": "comfort tyre for family vehicles and light trucks"
@@ -344,7 +344,7 @@
         "brand": "RoadCruza",
         "size": "225/55R18",
         "price": 14500,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-22555r18-ra4100.jpg",
         "description": "sport tyre for high-performance vehicles"
@@ -354,7 +354,7 @@
         "brand": "RoadCruza",
         "size": "225/60R17",
         "price": 14200,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-22560r17-ra1100.png",
         "description": "premium all-season tyre for luxury vehicles"
@@ -364,7 +364,7 @@
         "brand": "RoadCruza",
         "size": "235/65R17",
         "price": 15200,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-23565r17-ra1100.jpg",
         "description": "large vehicle tyre for SUVs and luxury cars"
@@ -544,7 +544,7 @@
         "brand": "RoadCruza",
         "size": "P215/60R17",
         "price": 14800,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-p21560r17-ra1100.png",
         "description": "passenger car tyre for sedan and compact crossovers"
@@ -554,7 +554,7 @@
         "brand": "RoadCruza",
         "size": "P235/55R18",
         "price": 15500,
-        "vehicleType": "passenger",
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/Tyres/RoadCruza/roadcruza-p23555r18-ra1100.png",
         "description": "premium passenger tyre for luxury and sport vehicles"

@@ -168,6 +168,8 @@
         </div>
     </div>
     <script>
+        const API_BASE = 'http://127.0.0.1:3000';
+
         // state
         let token = localStorage.getItem('sk_admin_token');
 
@@ -184,7 +186,7 @@
             const password = document.getElementById('password').value;
 
             try {
-                const res = await fetch('/api/auth/login', {
+                const res = await fetch(`${API_BASE}/api/auth/login`, {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({username, password})
@@ -200,6 +202,7 @@
                     showAlert('login-alert', data.message, 'error');
                 }
             } catch (err) {
+                console.error('Login error:', err);
                 showAlert('login-alert', 'Connection failed. Is the server running?', 'error');
             }
         }
@@ -228,7 +231,7 @@
         // Load all tyres
         async function loadTyres() {
             try {
-                const res = await fetch ('/api/tyres/all', {
+                const res = await fetch (`${API_BASE}/api/tyres/all`, {
                     headers: {'Authorization': `Bearer ${token}`}
                 });
 
@@ -289,11 +292,11 @@
                 return;
             }
             const isEdit = id !== '';
-            const url = isEdit ? `/api/tyres/${id}` : '/api/tyres';
+            const url = isEdit ? `${API_BASE}/api/tyres/${id}` : `${API_BASE}/api/tyres`;
             const method = isEdit ? 'PUT' : 'POST';
 
             try {
-                const res = await fetch(url, {
+                const res = await fetch(`${API_BASE}/api/tyres/all`, {
                     method,
                     headers: {
                         'Content-Type': 'application/json',
@@ -319,7 +322,7 @@
         // Edit - populate form
         async function editTyre(id) {
             try {
-                const res = await fetch('/api/tyres/all', {
+                const res = await fetch(`${API_BASE}/api/tyres/all`, {
                     headers: {'Authorization': `Bearer ${token}`}
                 });
                 const data = await res.json();
@@ -335,7 +338,7 @@
                 document.getElementById('inStock').value = tyre.inStock;
                 document.getElementById('description').value = tyre.description;
                 document.getElementById('image').value = tyre.image;
-                document.getElementById('form-title').textContent = `Editing - ${tyre.brand} $tyre.size`;
+                document.getElementById('form-title').textContent = `Editing - ${tyre.brand} ${tyre.size}`;
 
                 // Scroll to form
                 document.querySelector('.form-card').scrollIntoView({behavior: 'smooth'});
@@ -349,7 +352,7 @@
             if (!confirm(`Delete ${name}? This cannot be undone.`)) return;
 
             try {
-                const res = await fetch (`/api/tyres/${id}`, {
+                const res = await fetch (`${API_BASE}/api/tyres/${id}`, {
                     method: 'DELETE',
                     headers: {'Authorization': `Bearer ${token}`}
                 });
@@ -382,7 +385,7 @@
         // Alert helper
         function showAlert(containerId, message, type) {
             const container = document.getElementById(containerId);
-            container.innerHTML = `div class="alert alert-${type}">${message}</div>`
+            container.innerHTML = `<div class="alert alert-${type}">${message}</div>`
             setTimeout(() => container.innerHTML = '', 4000);
         }
     </script>    

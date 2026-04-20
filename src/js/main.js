@@ -10,6 +10,7 @@ hamburger.addEventListener('click', () => {
     // mobileMenu.classList.toggle('flex');
 });
 
+<<<<<<< Updated upstream
 
 //state
 const state = {
@@ -240,3 +241,54 @@ document.querySelectorAll('#mobile-menu a').forEach(link => {
 window.addEventListener('load', () => {
     document.getElementById('products').scrollIntoView({behavior: 'smooth'});
 });
+=======
+// Fetch the JSON file
+fetch('./src/tyres.json')
+.then(response => response.json())
+.then(tyres => {
+    renderTyres(tyres);
+});
+
+// Function that builds cards from data
+function renderTyres(tyres) {
+    const grid = document.getElementById('tyre-grid');
+
+    //clear existing cards from rendering
+    grid.innerHTML = '';
+
+    //Loop through each tyre and create a card
+    tyres.forEach(tyre => {
+        const card = document.createElement('div');
+        card.innerHTML = `
+            <div class="border rounded-lg overflow-hidden">
+                <div class="bg-surface-mid flex items-center justify-center h-32">
+                    <i data-lucide="circle" class="w-12 h-12 text-brand opacity-30"></i>
+                </div>
+                <div class="p-4">
+                    <span class="text-xs text-brand font-bold uppercase tracking-wide">
+                        ${tyre.brand}
+                    </span>
+                    <h3 class="text-lg font-bold text-surface-darker mt-1">
+                        ${tyre.size}
+                    </h3>
+                    <p class="text-sm opacity-60 mb-4">
+                        ${tyre.vehicleType} - ${tyre.condition}
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-brand-dark">
+                            Ksh ${tyre.price.toLocaleString()}
+                        </span>
+                        <a href="https://wa.me/254780362229?text=I'm interested in the ${tyre.brand} ${tyre.size}" class="bg-surface-mid text-brand-dark text-xs font-semibold px-3 py-1.5 rounded">
+                            Enquire
+                        </a>
+                    </div>
+                </div>
+            </div>
+        `;
+        grid.appendChild(card);
+    });
+
+    // Re-run Lucide after injecting new HTML
+    lucide.createIcons();
+}
+>>>>>>> Stashed changes

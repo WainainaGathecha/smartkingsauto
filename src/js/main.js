@@ -1,5 +1,5 @@
 //Initialize lucide icons
-lucide.createIcons();
+// lucide.createIcons();
 
 // Hamburger menu
 const hamburger = document.getElementById('hamburger');
@@ -92,7 +92,7 @@ function renderTyres(tyres) {
                 ${tyre.size}
             </span>
             <h3 class="font-bold text-surface-darker text-base mb-1">
-                ${tyre.size}
+                ${tyre.brand}
             </h3>
             <p class="text-xs opacity-60 mb-1 capitalize">
                 ${tyre.vehicleType}

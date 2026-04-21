@@ -3,20 +3,280 @@
         "id": 1,
         "brand": "Roadcruza",
         "size": "175/70R13",
-        "price": 4200,
+        "price": 5400,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/Tyres/RoadCruza/roadcruza-165-r13c-new.webp",
-        "description": "All-season tyre for compact saloons"
+        "image": "/src/assets/tyres/roadcruza/roadcruza-17570r13.webp",
+        "description": "RA610 pattern, engineered with an optimized tread for enhanced grip and low road noise"
     },
     {
         "id": 2,
-        "brand": "RoadCruza",
-        "size": "P235/55R18",
-        "price": 15500,
-        "vehicleType": "suv",
+        "brand": "Comforser",
+        "size": "175/70R13",
+        "price": 4800,
+        "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/Tyres/RoadCruza/roadcruza-p23555r18-ra1100.png",
-        "description": "premium passenger tyre for luxury and sport vehicles"
+        "image": "/src/assets/tyres/comforser/comforser-17570r13.webp",
+        "description": "CF510/CF500 series, focus on fuel efficiency, low rolling resistance, and wet-weather stability"
+    },
+    {
+        "id": 3,
+        "brand": "Compasal",
+        "size": "175/70R13",
+        "price": 4800,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/comforser/comforser-17570r13.webp",
+        "description": "Blazer HP, a high-performance passenger tyre offering responsive handling and all-season reliability"
+    },
+    {
+        "id": 4,
+        "brand": "Boto",
+        "size": "175/70R13",
+        "price": 3500,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Durable construction designed for long-distance mileage and heat dissipation"
+    },
+    {
+        "id": 5,
+        "brand": "Double King",
+        "size": "175/70R13",
+        "price": 4800,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Budget-friendly radial tyre with a reinforced bead for better stability on local roads"
+    },
+    {
+        "id": 6,
+        "brand": "Mirage",
+        "size": "175/70R13",
+        "price": 4800,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Focus on a quiet cabin experience and comfortable ride quality for daily commuting"
+    },
+    {
+        "id": 7,
+        "brand": "Roadcruza",
+        "size": "185/70R13",
+        "price": 5800,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "High-silica compound for shorter braking distances and improved fuel economy"
+    },
+    {
+        "id": 8,
+        "brand": "Comforser",
+        "size": "185/70R13",
+        "price": 5200,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Features four longitudinal grooves for superior drainage and hydroplaning resistance"
+    },
+    {
+        "id": 9,
+        "brand": "Compasal",
+        "size": "185/70R13",
+        "price": 4800,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Designed with a symmetrical tread pattern to ensure a quiet ride and even wear"
+    },
+    {
+        "id": 10,
+        "brand": "Mirage",
+        "size": "185/70R13",
+        "price": 5000,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Offers a solid center rib for better directional stability and steering response at highway speeds"
+    },
+    {
+        "id": 11,
+        "brand": "Double King",
+        "size": "185/70R13",
+        "price": 4800,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Budget-friendly option with reinforced casing to withstand rough city patches"
+    },
+    {
+        "id": 12,
+        "brand": "Boto",
+        "size": "185/70R13",
+        "price": 3800,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Entry-level radial providing reliable dry and wet traction for urban commuting"
+    },
+    {
+        "id": 13,
+        "brand": "Roadcruza",
+        "size": "175/65R14",
+        "price": 5500,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "High-performamce tread designed for wet grip and high-speed stability on highways"
+    },
+    {
+        "id": 14,
+        "brand": "Comforser",
+        "size": "175/65R14",
+        "price": 5000,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Features a fuel-efficient compound and a tread pattern optimized for low road noise"
+    },
+    {
+        "id": 15,
+        "brand": "Compasal",
+        "size": "175/65R14",
+        "price": 4800,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Provides excellent handling and steering response with a focus on long-lasting durability"
+    },
+    {
+        "id": 16,
+        "brand": "Double King",
+        "size": "175/65R14",
+        "price": 4500,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "A robust budget tyre with a reinforced sidewa;; to handle urban potholes and rough patches"
+    },
+    {
+        "id": 17,
+        "brand": "Boto",
+        "size": "175/65R14",
+        "price": 4500,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Entry-level radial tyre offering reliable braking and comfort for daily city driving"
+    },
+    {
+        "id": 18,
+        "brand": "Mirage",
+        "size": "175/65R14",
+        "price": 5200,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Designed with wide grooves for better water excavation and safety during the rainy season"
+    },
+    {
+        "id": 19,
+        "brand": "Goddard",
+        "size": "175/65R14",
+        "price": 4500,
+        "vehicleType": "",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "A versatile all-season tyre known well for its value-to-performance ratio in the local market"
+    },
+    {
+        "id": 20,
+        "brand": "Wanda",
+        "size": "175/65R14",
+        "price": 4200,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Budget-focused tyre specifically built for high mileage and resistance to heat buildup"
+    },
+    {
+        "id": 21,
+        "brand": "Roadcruza",
+        "size": "175/70R14",
+        "price": 5800,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/roadcruza/roadcruza-17570r14.webp",
+        "description": "premium comfort tread designed for better shock absorption and low rolling resistance"
+    },
+    {
+        "id": 22,
+        "brand": "Comforser",
+        "size": "175/70R14",
+        "price": 5500,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Specialized rubber compound that stays flexible for better grip in both dry and wet conditions"
+    },
+    {
+        "id": 23,
+        "brand": "Compasal",
+        "size": "175/70R14",
+        "price": 5500,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Features a solid center rib to improve steering precision and high-speed stability"
+    },
+    {
+        "id": 24,
+        "brand": "Double King",
+        "size": "175/70R14",
+        "price": 4800,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Reinforced casing specifically built to withstand high mileage and rouger rural terrains"
+    },
+    {
+        "id": 25,
+        "brand": "Goddard",
+        "size": "175/70R14",
+        "price": 4800,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "A reliable daily-driver tyre with a focus on tread longetivity and heat resistance"
+    },
+    {
+        "id": 26,
+        "brand": "Mirage",
+        "size": "175/70R14",
+        "price": 5200,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Offers wide circumferential grooves to prevent hydroplaning during heavy rains"
+    },
+    {
+        "id": 27,
+        "brand": "Boto",
+        "size": "175/70R14",
+        "price": 4200,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "An economical choice providing decent comfort and safety for urban commuting"
+    },
+    {
+        "id": 28,
+        "brand": "Wanda",
+        "size": "175/70R14",
+        "price": 4500,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Budget-friendly radial with a focus on high-mileage durability for commercial use"
     }
 ]

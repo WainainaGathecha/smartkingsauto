@@ -109,7 +109,7 @@ function renderTyres(tyres) {
                     href="https://wa.me/254780362229?text=Hi!%20%F0%9F%91%8B%20I'm%20interested%20in%20the%20${encodeURIComponent(tyre.brand)}%20${encodeURIComponent(tyre.size)}%20tyre.%20Can%20you%20tell%20me%20about%20availability%20and%20if%20you%20have%20any%20discounts?%20Thanks!"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="bg-brand/10 text-brand-dark text-xs font-semibold px-3 py-1.5 rounded-lg hover:bg-brand hover:text-page transition-colors duration-200">
+                    class="bg-whatsapp text-page text-xs font-semibold px-3 py-1.5 rounded-lg hover:bg-brand hover:text-page transition-colors duration-200">
                     Enquire
                 </a>
             </div>

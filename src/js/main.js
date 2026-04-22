@@ -87,7 +87,7 @@ function renderTyres(tyres) {
             </span>
         </div>
 
-        <div class="p-4 flex flex-col flex-1">
+        <div class="p-4 flex flex-col flex-1 border-2 border-brand/20 border-b-brand rounded-xl">
             <span class="text-xs text-brand font-bold uppercase tracking-wide mb-1">
                 ${tyre.size}
             </span>

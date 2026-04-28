@@ -87,3 +87,63 @@ Visit the live site or run it locally following the installation steps above
 ## Project status
 
 In progress
+
+## How I categorized the tyres
+
+I used the most common cars in Kenya by vehicle type and the sizes of those vehicle types. Then I map brands to vehicle types. Not all brands cover all vehicle types:
+
+- Roadcruza - covers everything
+- Wanda - saloon, suv, van, matatu
+- Compasal - saloon, suv, truck
+- Comforser - saloon, suv
+- Boto - saloon, van
+- Goddard - saloon, suv
+- Double King - saloon, matatu
+- Taitong - truck (their specialty)
+- Mirage - saloon, suv
+
+For each brand I pick the most relevant vehicle types and 2-3 sizes each
+
+### Saloon/sedan
+
+Most common cars in Kenya: Toyota Fielder, Axio, Allion, Premio, Vitz, Honda Fit, Mazda Demio, Nissan Note, Tilda
+
+- 185/70R14 - Fielder, Axio, older models
+- 195/65R15 - Allion, Premio, newer Fielder
+- 205/55R16 - newer models
+- 175/70R13 - Vitz, Demio, small cars
+- 185/65R15 - common size
+
+### SUV
+
+Prado, Rav4, Harrier, CX-5, Fortuner, Land Cruiser
+
+- 215/65R16 - RAV4, CX-5
+- 235/65R17 - Prado, Fortuner
+- 265/65R17 - Land Cruiser, Larger SUVs
+- 225/65R17 - mid-size SUVs
+
+### Van
+
+Noah, Voxy, Wish, Sienta (family vans)
+
+- 195/65R15 - Noah, Voxy
+- 205/65R15 - common van size
+- 215/60R16 - newer vans
+
+### Matatu
+
+14-seater(Nissan Matatu), 33-seater
+
+- 195R14C - standard 14-seater matatu
+- 185R14c - smaller matatus
+- 215/75R15LT - Larger matatus
+- 195R15C
+
+### Truck
+
+Lorries pickups
+
+- 7.50R16 - common truck size
+- 11R22.5 - large trucks
+- 7.00R16 - light trucks

@@ -33,7 +33,7 @@ const filterBtns = document.querySelectorAll('.filter-btn');
 
 //load data
 let allTyres = [];
-//sho empty state on page load
+// show empty state on page load
 emptyState.classList.remove('hidden');
 resultsCount.textContent = '';
 
@@ -41,6 +41,8 @@ fetch('./src/tyres.json')
     .then(response => response.json())
     .then(data => {
         allTyres = data;
+        // Show only the first 8 tyres on page load
+        renderTyres(allTyres.slice(0, 8));
     })
     .catch(error => {
         console.error('Failed to load tyre data:', error);

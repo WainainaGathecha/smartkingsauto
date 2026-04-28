@@ -2,281 +2,572 @@
     {
         "id": 1,
         "brand": "Roadcruza",
-        "size": "175/70R13",
-        "price": 5400,
+        "size": "185/70R14",
+        "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/roadcruza/roadcruza-17570r13.webp",
-        "description": "RA610 pattern, engineered with an optimized tread for enhanced grip and low road noise"
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Popular all-season tyre for Toyota Fielder, Axio and similar saloons"
     },
     {
         "id": 2,
-        "brand": "Comforser",
-        "size": "175/70R13",
-        "price": 4800,
+        "brand": "Roadcruza",
+        "size": "195/65R15",
+        "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/comforser/comforser-17570r13.webp",
-        "description": "CF510/CF500 series, focus on fuel efficiency, low rolling resistance, and wet-weather stability"
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Reliable touring tyre for Toyota Allion, Premio and Nissan Tiida"
     },
     {
         "id": 3,
-        "brand": "Compasal",
-        "size": "175/70R13",
-        "price": 4800,
+        "brand": "Roadcruza",
+        "size": "205/55R16",
+        "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/comforser/comforser-17570r13.webp",
-        "description": "Blazer HP, a high-performance passenger tyre offering responsive handling and all-season reliability"
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Sport touring tyre for newer saloon models"
     },
     {
         "id": 4,
-        "brand": "Boto",
-        "size": "175/70R13",
-        "price": 3500,
-        "vehicleType": "saloon",
+        "brand": "Roadcruza",
+        "size": "215/65R16",
+        "price": 0,
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Durable construction designed for long-distance mileage and heat dissipation"
+        "description": "All terrain tyre for Toyota RAV4, Mazda cx-5 and similar SUVs"
     },
     {
         "id": 5,
-        "brand": "Double King",
-        "size": "175/70R13",
-        "price": 4800,
-        "vehicleType": "saloon",
+        "brand": "Roadcruza",
+        "size": "235/65R17",
+        "price": 0,
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Budget-friendly radial tyre with a reinforced bead for better stability on local roads"
+        "description": "All terrain tyre for Toyota Prado and Fortuner"
     },
     {
         "id": 6,
-        "brand": "Mirage",
-        "size": "175/70R13",
-        "price": 4800,
-        "vehicleType": "saloon",
+        "brand": "Roadcruza",
+        "size": "265/65R17",
+        "price": 0,
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Focus on a quiet cabin experience and comfortable ride quality for daily commuting"
+        "description": "Heavy duty all terrain tyre for Land Cruiser and large 4WD"
     },
     {
         "id": 7,
         "brand": "Roadcruza",
-        "size": "185/70R13",
-        "price": 5800,
-        "vehicleType": "saloon",
+        "size": "195/65R15",
+        "price": 0,
+        "vehicleType": "van",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "High-silica compound for shorter braking distances and improved fuel economy"
+        "description": "Comfortable touring tyre for Toyota Noah and Voxy"
     },
     {
         "id": 8,
-        "brand": "Comforser",
-        "size": "185/70R13",
-        "price": 5200,
-        "vehicleType": "saloon",
+        "brand": "Roadcruza",
+        "size": "205/65R15",
+        "price": 0,
+        "vehicleType": "van",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Features four longitudinal grooves for superior drainage and hydroplaning resistance"
+        "description": "Reliable all-season tyre for family vans"
     },
     {
         "id": 9,
-        "brand": "Compasal",
-        "size": "185/70R13",
-        "price": 4800,
-        "vehicleType": "saloon",
+        "brand": "Roadcruza",
+        "size": "195R14C",
+        "price": 0,
+        "vehicleType": "matatu",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Designed with a symmetrical tread pattern to ensure a quiet ride and even wear"
+        "description": "8PR commercial tyre - standard fit for 14-seater matatus"
     },
     {
         "id": 10,
-        "brand": "Mirage",
-        "size": "185/70R13",
-        "price": 5000,
-        "vehicleType": "saloon",
+        "brand": "Roadcruza",
+        "size": "215/75R15LT",
+        "price": 0,
+        "vehicleType": "matatu",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Offers a solid center rib for better directional stability and steering response at highway speeds"
+        "description": "6PR LT all terrain tyre for larger matatus and minibuses"
     },
     {
         "id": 11,
-        "brand": "Double King",
-        "size": "185/70R13",
-        "price": 4800,
-        "vehicleType": "saloon",
+        "brand": "Roadcruza",
+        "size": "215/75R16C",
+        "price": 0,
+        "vehicleType": "matatu",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Budget-friendly option with reinforced casing to withstand rough city patches"
+        "description": "10PR commercial tyre for heavy-duty matatus and vans"
     },
     {
         "id": 12,
-        "brand": "Boto",
-        "size": "185/70R13",
-        "price": 3800,
-        "vehicleType": "saloon",
+        "brand": "Roadcruza",
+        "size": "7.50R16",
+        "price": 0,
+        "vehicleType": "truck",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Entry-level radial providing reliable dry and wet traction for urban commuting"
+        "description": "14PR truck tyre for light commercial trucks and lorries"
     },
     {
         "id": 13,
         "brand": "Roadcruza",
-        "size": "175/65R14",
-        "price": 5500,
-        "vehicleType": "saloon",
+        "size": "11R22.5",
+        "price": 0,
+        "vehicleType": "truck",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "High-performamce tread designed for wet grip and high-speed stability on highways"
+        "description": "18PR all position tyre for heavy trucks"
     },
     {
         "id": 14,
-        "brand": "Comforser",
-        "size": "175/65R14",
-        "price": 5000,
+        "brand": "Wanda",
+        "size": "185/70R14",
+        "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Features a fuel-efficient compound and a tread pattern optimized for low road noise"
+        "description": "Dependable all-season tyre for compact saloons"
     },
     {
         "id": 15,
-        "brand": "Compasal",
-        "size": "175/65R14",
-        "price": 4800,
+        "brand": "Wanda",
+        "size": "195/65R15",
+        "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Provides excellent handling and steering response with a focus on long-lasting durability"
+        "description": "Touring tyre for mid-size saloons"
     },
     {
         "id": 16,
-        "brand": "Double King",
-        "size": "175/65R14",
-        "price": 4500,
+        "brand": "Wanda",
+        "size": "205/55R16",
+        "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "A robust budget tyre with a reinforced sidewa;; to handle urban potholes and rough patches"
+        "description": "Sport touring tyre for executive saloons"
     },
     {
         "id": 17,
-        "brand": "Boto",
-        "size": "175/65R14",
-        "price": 4500,
-        "vehicleType": "saloon",
+        "brand": "Wanda",
+        "size": "215/65R16",
+        "price": 0,
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Entry-level radial tyre offering reliable braking and comfort for daily city driving"
+        "description": "All-season tyre for mid-size SUVs"
     },
     {
         "id": 18,
-        "brand": "Mirage",
-        "size": "175/65R14",
-        "price": 5200,
-        "vehicleType": "saloon",
+        "brand": "Wanda",
+        "size": "235/65R17",
+        "price": 0,
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Designed with wide grooves for better water excavation and safety during the rainy season"
+        "description": "All terrain tyre for large SUVs"
     },
     {
         "id": 19,
-        "brand": "Goddard",
-        "size": "175/65R14",
-        "price": 4500,
-        "vehicleType": "",
+        "brand": "Wanda",
+        "size": "195/65R15",
+        "price": 0,
+        "vehicleType": "van",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "A versatile all-season tyre known well for its value-to-performance ratio in the local market"
+        "description": "Comfortable tyre for Toyota Noah and similar vans"
     },
     {
         "id": 20,
         "brand": "Wanda",
-        "size": "175/65R14",
-        "price": 4200,
-        "vehicleType": "saloon",
+        "size": "205/65R15",
+        "price": 0,
+        "vehicleType": "van",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Budget-focused tyre specifically built for high mileage and resistance to heat buildup"
+        "description": "Reliable all-season tyre for family vans"
     },
     {
         "id": 21,
-        "brand": "Roadcruza",
-        "size": "175/70R14",
-        "price": 5800,
-        "vehicleType": "saloon",
+        "brand": "Wanda",
+        "size": "195R14C",
+        "price": 0,
+        "vehicleType": "matatu",
         "condition": "new",
-        "image": "/src/assets/tyres/roadcruza/roadcruza-17570r14.webp",
-        "description": "premium comfort tread designed for better shock absorption and low rolling resistance"
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "8PR commercial tyre for 14-seater matatus"
     },
     {
         "id": 22,
-        "brand": "Comforser",
-        "size": "175/70R14",
-        "price": 5500,
-        "vehicleType": "saloon",
+        "brand": "Wanda",
+        "size": "185R14C",
+        "price": 0,
+        "vehicleType": "matatu",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Specialized rubber compound that stays flexible for better grip in both dry and wet conditions"
+        "description": "8PR commercial tyre for small matatus and vans"
     },
     {
         "id": 23,
         "brand": "Compasal",
-        "size": "175/70R14",
-        "price": 5500,
+        "size": "185/70R14",
+        "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Features a solid center rib to improve steering precision and high-speed stability"
+        "description": "Dependable all-season tyre for compact saloons"
+    },
+    {
+        "id": 23,
+        "brand": "Compasal",
+        "size": "185/70R14",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Dependable all-season tyre for compact saloons"
     },
     {
         "id": 24,
-        "brand": "Double King",
-        "size": "175/70R14",
-        "price": 4800,
+        "brand": "Compasal",
+        "size": "195/65R15",
+        "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Reinforced casing specifically built to withstand high mileage and rouger rural terrains"
+        "description": "Reliable touring tyre for mid-size saloons"
     },
     {
         "id": 25,
-        "brand": "Goddard",
-        "size": "175/70R14",
-        "price": 4800,
+        "brand": "Compasal",
+        "size": "205/55R16",
+        "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "A reliable daily-driver tyre with a focus on tread longetivity and heat resistance"
+        "description": "Sport tyre for executive saloons"
     },
     {
         "id": 26,
-        "brand": "Mirage",
-        "size": "175/70R14",
-        "price": 5200,
-        "vehicleType": "saloon",
+        "brand": "Compasal",
+        "size": "215/65R16",
+        "price": 0,
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Offers wide circumferential grooves to prevent hydroplaning during heavy rains"
+        "description": "All terrain tyre for mid-size SUVs"
     },
     {
         "id": 27,
-        "brand": "Boto",
-        "size": "175/70R14",
-        "price": 4200,
-        "vehicleType": "saloon",
+        "brand": "Compasal",
+        "size": "235/65R17",
+        "price": 0,
+        "vehicleType": "suv",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "An economical choice providing decent comfort and safety for urban commuting"
+        "description": "Highway terrain tyre for large SUVs"
     },
     {
         "id": 28,
-        "brand": "Wanda",
-        "size": "175/70R14",
-        "price": 4500,
+        "brand": "Compasal",
+        "size": "11R22.5",
+        "price": 0,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "18PR all position truck tyre"
+    },
+    {
+        "id": 29,
+        "brand": "Compasal",
+        "size": "315/80R22.5",
+        "price": 0,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "20PR steer axle tyre for heavy trucks"
+    },
+    {
+        "id": 30,
+        "brand": "Comforser",
+        "size": "195/65R15",
+        "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
         "image": "/src/assets/tyres/tyreplaceholder.webp",
-        "description": "Budget-friendly radial with a focus on high-mileage durability for commercial use"
+        "description": "Performance touring tyre for saloons"
+    },
+    {
+        "id": 31,
+        "brand": "Comforser",
+        "size": "205/55R16",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "High performance tyre for saloons"
+    },
+    {
+        "id": 32,
+        "brand": "Comforser",
+        "size": "215/55R17",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Sport touring tyre for executive saloons"
+    },
+    {
+        "id": 33,
+        "brand": "Comforser",
+        "size": "215/65R16",
+        "price": 0,
+        "vehicleType": "suv",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "All terrain tyre for mid-size SUVs"
+    },
+    {
+        "id": 34,
+        "brand": "Comforser",
+        "size": "265/65R17",
+        "price": 0,
+        "vehicleType": "suv",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "All terrain tyre for large SUVs and 4WDs"
+    },
+    {
+        "id": 35,
+        "brand": "Boto",
+        "size": "175/70R13",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Budget all-season tyre for small saloons"
+    },
+    {
+        "id": 36,
+        "brand": "Boto",
+        "size": "185/70R14",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Reliable budget tyre for compact saloons"
+    },
+    {
+        "id": 37,
+        "brand": "Boto",
+        "size": "195/65R15",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "All-season budget tyre or mid-size saloons"
+    },
+    {
+        "id": 38,
+        "brand": "Boto",
+        "size": "195/65R15",
+        "price": 0,
+        "vehicleType": "van",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Durable tyre for family vans and MPVs"
+    },
+    {
+        "id": 39,
+        "brand": "Boto",
+        "size": "205/65R15",
+        "price": 0,
+        "vehicleType": "van",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Comfortable tyre for larger family vans"
+    },
+    {
+        "id": 40,
+        "brand": "Goddard",
+        "size": "185/70R14",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "All-season tyre compact saloons"
+    },
+    {
+        "id": 41,
+        "brand": "Goddard",
+        "size": "195/65R15",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Touring tyre for mid-size saloons"
+    },
+    {
+        "id": 42,
+        "brand": "Goddard",
+        "size": "205/55R16",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Sport tyre for executive saloons"
+    },
+    {
+        "id": 43,
+        "brand": "Goddard",
+        "size": "215/65R16",
+        "price": 0,
+        "vehicleType": "suv",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "All terrain tyre for mid-size SUVs"
+    },
+    {
+        "id": 44,
+        "brand": "Goddard",
+        "size": "235/65R17",
+        "price": 0,
+        "vehicleType": "suv",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "All terrain tyre for large SUVs"
+    },
+    {
+        "id": 45,
+        "brand": "Double King",
+        "size": "185/70R14",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Reliable all-season tyre for compact saloons"
+    },
+    {
+        "id": 46,
+        "brand": "Double King",
+        "size": "195/65R15",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Touring tyre for mid-size saloons"
+    },
+    {
+        "id": 47,
+        "brand": "Double King",
+        "size": "195R14C",
+        "price": 0,
+        "vehicleType": "matatu",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "8PR commercial tyre for 14-seater matatus"
+    },
+    {
+        "id": 48,
+        "brand": "Double King",
+        "size": "185R14C",
+        "price": 0,
+        "vehicleType": "matatu",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "8PR commercial tyre for small matatus"
+    },
+    {
+        "id": 49,
+        "brand": "Taitong",
+        "size": "7.00R16",
+        "price": 0,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "14PR all position tyre for light trucks"
+    },
+    {
+        "id": 50,
+        "brand": "Taitong",
+        "size": "7.50R16",
+        "price": 0,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "14PR all position tyre for medium trucks"
+    },
+    {
+        "id": 51,
+        "brand": "Taitong",
+        "size": "11R22.5",
+        "price": 0,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "18PR all position tyre for heavy trucks"
+    },
+    {
+        "id": 52,
+        "brand": "Taitong",
+        "size": "10.00R20",
+        "price": 0,
+        "vehicleType": "truck",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "18PR all position tyre for heavy lorries"
+    },
+    {
+        "id": 53,
+        "brand": "Mirage",
+        "size": "185/70R14",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "All-season tyre for compact saloons"
+    },
+    {
+        "id": 54,
+        "brand": "Mirage",
+        "size": "195/65R15",
+        "price": 0,
+        "vehicleType": "saloon",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "Touring tyre for mid-size saloons"
+    },
+    {
+        "id": 55,
+        "brand": "Mirage",
+        "size": "215/65R16",
+        "price": 0,
+        "vehicleType": "suv",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "All terrain tyre for mid-size SUVs"
+    },
+    {
+        "id": 56,
+        "brand": "Mirage",
+        "size": "235/65R17",
+        "price": 0,
+        "vehicleType": "suv",
+        "condition": "new",
+        "image": "/src/assets/tyres/tyreplaceholder.webp",
+        "description": "All terrain tyre for large SUVs"
     }
 ]
+    

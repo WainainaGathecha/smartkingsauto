@@ -94,7 +94,7 @@ function renderTyres(tyres) {
             <h3 class="font-bold text-surface-darker text-base mb-1">
                 ${tyre.brand}
             </h3>
-            <p class="text-xs opacity-60 mb-1 capitalize">
+            <p class="text-xs opacity-60 mb-1 uppercase">
                 ${tyre.vehicleType}
             </p>
             <p class="text-xs opacity-50 mb-3 leading-relaxed">

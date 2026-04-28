@@ -4,6 +4,14 @@
 // Hamburger menu
 const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobile-menu');
+const showAllBtn = document.getElementById('show-all-btn');
+const showAllContainer = document.getElementById('show-all-container');
+
+showAllBtn.addEventListener('click', () => {
+    renderTyres(allTyres);
+    // Hide the button once all tyres are showing
+    showAllContainer.classList.add('hidden');
+});
 
 hamburger.addEventListener('click', () => {
     mobileMenu.classList.toggle('hidden');
@@ -228,7 +236,10 @@ resetBtn.addEventListener('click', () => {
     });
     
     //render full list
-    renderTyres(allTyres);
+    renderTyres(allTyres.slice(0, 8));
+    showAllContainer.classList.remove('hidden');
+
+
 });
 
 // Auto-close mobile menu when a link is clicked

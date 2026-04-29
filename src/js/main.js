@@ -87,7 +87,7 @@ function renderTyres(tyres) {
                 src="${tyre.image}"
                 alt=${tyre.brand} ${tyre.size} tyre"
                 class="w-full h-full object-cover"
-                onerror="this.src='/src/assets/tyres/placeholder.svg'"
+                onerror="this.src='/src/assets/placeholder.svg'"
             >
             <span class="absolute top-3 right-3 px-2.5 py-1 rounded-full text-xs font-semibold
                 ${tyre.condition === 'new'

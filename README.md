@@ -147,3 +147,8 @@ Lorries pickups
 - 7.50R16 - common truck size
 - 11R22.5 - large trucks
 - 7.00R16 - light trucks
+
+### Pick up
+
+- fix the tyre rendering issue (critical) -
+- make sure you work from a separate branch

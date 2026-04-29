@@ -6,7 +6,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Popular all-season tyre for Toyota Fielder, Axio and similar saloons"
     },
     {
@@ -16,7 +16,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Reliable touring tyre for Toyota Allion, Premio and Nissan Tiida"
     },
     {
@@ -26,7 +26,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Sport touring tyre for newer saloon models"
     },
     {
@@ -36,7 +36,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All terrain tyre for Toyota RAV4, Mazda cx-5 and similar SUVs"
     },
     {
@@ -46,7 +46,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All terrain tyre for Toyota Prado and Fortuner"
     },
     {
@@ -56,7 +56,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Heavy duty all terrain tyre for Land Cruiser and large 4WD"
     },
     {
@@ -66,7 +66,7 @@
         "price": 0,
         "vehicleType": "van",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Comfortable touring tyre for Toyota Noah and Voxy"
     },
     {
@@ -76,7 +76,7 @@
         "price": 0,
         "vehicleType": "van",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Reliable all-season tyre for family vans"
     },
     {
@@ -86,7 +86,7 @@
         "price": 0,
         "vehicleType": "matatu",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "8PR commercial tyre - standard fit for 14-seater matatus"
     },
     {
@@ -96,7 +96,7 @@
         "price": 0,
         "vehicleType": "matatu",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "6PR LT all terrain tyre for larger matatus and minibuses"
     },
     {
@@ -106,7 +106,7 @@
         "price": 0,
         "vehicleType": "matatu",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "10PR commercial tyre for heavy-duty matatus and vans"
     },
     {
@@ -116,7 +116,7 @@
         "price": 0,
         "vehicleType": "truck",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "14PR truck tyre for light commercial trucks and lorries"
     },
     {
@@ -126,7 +126,7 @@
         "price": 0,
         "vehicleType": "truck",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "18PR all position tyre for heavy trucks"
     },
     {
@@ -136,7 +136,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Dependable all-season tyre for compact saloons"
     },
     {
@@ -146,7 +146,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Touring tyre for mid-size saloons"
     },
     {
@@ -156,7 +156,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Sport touring tyre for executive saloons"
     },
     {
@@ -166,7 +166,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All-season tyre for mid-size SUVs"
     },
     {
@@ -176,7 +176,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All terrain tyre for large SUVs"
     },
     {
@@ -186,7 +186,7 @@
         "price": 0,
         "vehicleType": "van",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Comfortable tyre for Toyota Noah and similar vans"
     },
     {
@@ -196,7 +196,7 @@
         "price": 0,
         "vehicleType": "van",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Reliable all-season tyre for family vans"
     },
     {
@@ -206,7 +206,7 @@
         "price": 0,
         "vehicleType": "matatu",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "8PR commercial tyre for 14-seater matatus"
     },
     {
@@ -216,7 +216,7 @@
         "price": 0,
         "vehicleType": "matatu",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "8PR commercial tyre for small matatus and vans"
     },
     {
@@ -226,7 +226,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Dependable all-season tyre for compact saloons"
     },
     {
@@ -236,7 +236,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Dependable all-season tyre for compact saloons"
     },
     {
@@ -246,7 +246,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Reliable touring tyre for mid-size saloons"
     },
     {
@@ -256,7 +256,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Sport tyre for executive saloons"
     },
     {
@@ -266,7 +266,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All terrain tyre for mid-size SUVs"
     },
     {
@@ -276,7 +276,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Highway terrain tyre for large SUVs"
     },
     {
@@ -286,7 +286,7 @@
         "price": 0,
         "vehicleType": "truck",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "18PR all position truck tyre"
     },
     {
@@ -296,7 +296,7 @@
         "price": 0,
         "vehicleType": "truck",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "20PR steer axle tyre for heavy trucks"
     },
     {
@@ -306,7 +306,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Performance touring tyre for saloons"
     },
     {
@@ -316,7 +316,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "High performance tyre for saloons"
     },
     {
@@ -326,7 +326,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Sport touring tyre for executive saloons"
     },
     {
@@ -336,7 +336,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All terrain tyre for mid-size SUVs"
     },
     {
@@ -346,7 +346,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All terrain tyre for large SUVs and 4WDs"
     },
     {
@@ -356,7 +356,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Budget all-season tyre for small saloons"
     },
     {
@@ -366,7 +366,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Reliable budget tyre for compact saloons"
     },
     {
@@ -376,7 +376,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All-season budget tyre or mid-size saloons"
     },
     {
@@ -386,7 +386,7 @@
         "price": 0,
         "vehicleType": "van",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Durable tyre for family vans and MPVs"
     },
     {
@@ -396,7 +396,7 @@
         "price": 0,
         "vehicleType": "van",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Comfortable tyre for larger family vans"
     },
     {
@@ -406,7 +406,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All-season tyre compact saloons"
     },
     {
@@ -416,7 +416,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Touring tyre for mid-size saloons"
     },
     {
@@ -426,7 +426,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Sport tyre for executive saloons"
     },
     {
@@ -436,7 +436,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All terrain tyre for mid-size SUVs"
     },
     {
@@ -446,7 +446,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All terrain tyre for large SUVs"
     },
     {
@@ -456,7 +456,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Reliable all-season tyre for compact saloons"
     },
     {
@@ -466,7 +466,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Touring tyre for mid-size saloons"
     },
     {
@@ -476,7 +476,7 @@
         "price": 0,
         "vehicleType": "matatu",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "8PR commercial tyre for 14-seater matatus"
     },
     {
@@ -486,7 +486,7 @@
         "price": 0,
         "vehicleType": "matatu",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "8PR commercial tyre for small matatus"
     },
     {
@@ -496,7 +496,7 @@
         "price": 0,
         "vehicleType": "truck",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "14PR all position tyre for light trucks"
     },
     {
@@ -506,7 +506,7 @@
         "price": 0,
         "vehicleType": "truck",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "14PR all position tyre for medium trucks"
     },
     {
@@ -516,7 +516,7 @@
         "price": 0,
         "vehicleType": "truck",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "18PR all position tyre for heavy trucks"
     },
     {
@@ -526,7 +526,7 @@
         "price": 0,
         "vehicleType": "truck",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "18PR all position tyre for heavy lorries"
     },
     {
@@ -536,7 +536,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All-season tyre for compact saloons"
     },
     {
@@ -546,7 +546,7 @@
         "price": 0,
         "vehicleType": "saloon",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "Touring tyre for mid-size saloons"
     },
     {
@@ -556,7 +556,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All terrain tyre for mid-size SUVs"
     },
     {
@@ -566,7 +566,7 @@
         "price": 0,
         "vehicleType": "suv",
         "condition": "new",
-        "image": "/src/assets/tyres/tyreasset.webp",
+        "image": "/src/assets/tyreasset.webp",
         "description": "All terrain tyre for large SUVs"
     }
 ]

@@ -148,7 +148,8 @@ Lorries pickups
 - 11R22.5 - large trucks
 - 7.00R16 - light trucks
 
-### Pick up
+### Problems
 
-- fix the tyre rendering issue (critical) -
-- make sure you work from a separate branch
+- fix the tyre rendering issue (critical)
+
+The issue was a casing mismatch between the local directory and the one on github so i resulted to deletion of the folder and mover the two images to live in the assets folder. It worked. Do I have regrets? I don't think so there are only two images so it shouldn't be a problem.
